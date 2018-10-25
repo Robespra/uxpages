@@ -55,6 +55,25 @@ const Convy = () => (
 </div> 
 </div> 
 
+  <div className="row">
+  <div className="phone_container">
+<div className="isometric">
+<div className="mobile_phone">
+
+<img src={require('../images/convy/mobile_phone.svg')} alt="convy optimization case study"/>
+</div> 
+</div> 
+</div> 
+
+  <div className="phone_container">
+<div className="isometric">
+<div className="mobile_phone">
+<img src={require('../images/convy/mobile_phone2.svg')} alt="convy optimization case study"/>
+</div> 
+</div> 
+</div> 
+</div>
+
 <div className="row align-center padding5_top">
  <div className="small-11 medium-9 columns padding5_top">
  <p className="text-left content-project padding5_top">With Convy we are helping clients getting more quality conversion and profits. We help companies optimize their app or site revenue using proven marketing webdesign methodologies.</p>

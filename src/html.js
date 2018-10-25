@@ -52,15 +52,15 @@ $contactForm.submit(function(e) {
         data: $(this).serialize(),
         dataType: 'json',
         beforeSend: function() {
-            $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+            $contactForm.append('<div className="alert alert--loading">Sending message…</div>');
         },
         success: function(data) {
             $contactForm.find('.alert--loading').hide();
-            $contactForm.append('<div class="alert alert--success">Message sent! I will get back to you within 48h. Thank you.</div>');
+            $contactForm.append('<div className="alert alert--success">Message sent! I will get back to you within 48h. Thank you.</div>');
         },
         error: function(err) {
             $contactForm.find('.alert--loading').hide();
-            $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+            $contactForm.append('<div className="alert alert--error">Ops, there was an error.</div>');
         }
     });
 });

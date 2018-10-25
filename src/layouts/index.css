@@ -1,8 +1,6 @@
 body{background-color:#F1F1F1;color:#303136;font-family:'Open Sans',sans-serif}.hidden-h1{text-indent:100%;white-space:nowrap;overflow:hidden;position:absolute;z-index:-1;color:transparent;font-size:1px;left:-100vh}.hero_container,.sidebar-nav{position:relative}h1,h2,h3,h4,h5{font-family:Lora,serif}
 .hero_container{
   max-width:1600px;margin:0 auto;padding-top:0;display:block;width:100%;height:100vh;overflow:hidden;}
-
-
 .hero_project_title_block{position:absolute;margin:5% 12%;width:35%}
 .hero_project_img{width:65%;float:right;height:auto;z-index:1;margin-top:10%} 
 .hero_project_img img,.hero_project_img video {border-top-left-radius:30px;border-bottom-left-radius:30px;}
@@ -199,10 +197,6 @@ font-size: 2.5rem;
 
 
 
-
-
-
-
 /* from meka app.css */
 
 
@@ -320,17 +314,8 @@ font-size: 5em;
 }
 
  .mobile_phone img {
-      position:relative;
-      margin:0 auto;
-      text-align:center;
-      display:block;
-      border-radius: 45px;
-      min-width:300px;
-      min-height:543px;
-      box-shadow: 0 1px 1px 0 rgba(43,49,58,0), 
-               -2px 2px 1px 0 rgba(43,49,58,0), 
-         inset 1px -1px 1px 0 rgba(255,255,255,0), 
-         inset 1px -2px 1px 0 rgba(202,207,211,0);
+  max-width: 315px;
+  border-radius: 40px;
   }
   
 @keyframes pulse {
@@ -561,24 +546,10 @@ opacity: 0.8;
   color: #999;
 }
 
-.mobile_phone svg{
+.mobile_phone img{
       max-width: 315px;
     border-radius: 40px;
 }
-
-
-
-/* @-webkit-keyframes sprinkle-spin {
-  0%, 100%   {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-}
- */
-
-
 
 @-webkit-keyframes fadeIn {
   from {
@@ -645,48 +616,6 @@ opacity: 0.8;
 }
 
 
-#validated-icon {
-    -webkit-animation: slideInLeft 4s 0.3s infinite ease-in-out;
-  animation-name: slideInLeft;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
-#small-balls1 {
-    -webkit-animation: slideInDown 2s 0.3s infinite ease-in-out;
-  animation-name: slideInDown;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
-#small-balls2 {
-    -webkit-animation: slideInDownsmall-balls5 3s 1.3s infinite ease-in-out;
-  animation-name: slideInDownsmall-balls5;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
-#small-balls3 {
-    -webkit-animation: slideInDown 4s 2.3s infinite ease-in-out;
-  animation-name: slideInDown;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
-#small-balls4 {
-    -webkit-animation: slideInDown 5s 3.3s infinite ease-in-out;
-  animation-name: slideInDown;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
-#small-balls5 {
-    -webkit-animation: slideInDownsmall-balls5 6s 3s infinite ease-in-out;
-  animation-name: slideInDownsmall-balls5;
-/*   -webkit-transform:translateX(1000px);
-  -webkit-animation: sprinkle-spin 8s infinite ease-in-out; */
-}
-
 
 @-webkit-keyframes slideInDown {
   from {
@@ -719,46 +648,6 @@ opacity: 0.8;
   100% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-  }
-}
-
-@-webkit-keyframes slideInDownsmall-balls5 {
-  from {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-
-  50%  {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  100%  {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 30%, 0);
-    transform: translate3d(0, 30%, 0);
-  }
-}
-
-@keyframes slideInDownsmall-balls5 {
-  from {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-
-  50% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 30%, 0);
-    transform: translate3d(0, 30%, 0);
   }
 }
 
