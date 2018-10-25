@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---sharemos": [
+      "path---sharemos-a0e39f21c11f6a62c5ab.js",
+      "path---sharemos-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-ebdabf6ae4eabe45490b.js",
+      "component---src-pages-index-js-ebdabf6ae4eabe45490b.js.map"
+    ],
+    "path---": [
+      "path----aa20e34106f6bd72ba21.js",
+      "path----aa20e34106f6bd72ba21.js.map"
+    ],
+    "path---meka": [
+      "path---meka-a0e39f21c11f6a62c5ab.js",
+      "path---meka-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-a64a86aaab331b45ce8b.js",
+      "component---src-layouts-index-js-a64a86aaab331b45ce8b.js.map"
+    ],
+    "component---src-pages-kelisto-js": [
+      "component---src-pages-kelisto-js-8cf4ec114683570a4672.js",
+      "component---src-pages-kelisto-js-8cf4ec114683570a4672.js.map"
+    ],
+    "component---src-pages-convy-js": [
+      "component---src-pages-convy-js-027f922384e9876241a4.js",
+      "component---src-pages-convy-js-027f922384e9876241a4.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-meka-js": [
+      "component---src-pages-meka-js-23c8d995318884054805.js",
+      "component---src-pages-meka-js-23c8d995318884054805.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-5bac3f3e537dca93db3e.js",
+      "build-js-styles.css",
+      "commons-5bac3f3e537dca93db3e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-sharemos-js": [
+      "component---src-pages-sharemos-js-31453802c6829823d799.js",
+      "component---src-pages-sharemos-js-31453802c6829823d799.js.map"
+    ],
+    "path---kelisto": [
+      "path---kelisto-a0e39f21c11f6a62c5ab.js",
+      "path---kelisto-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---convy": [
+      "path---convy-a0e39f21c11f6a62c5ab.js",
+      "path---convy-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-4695e3a15274eca62a4a.js",
+      "build-js-styles.css",
+      "app-4695e3a15274eca62a4a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
