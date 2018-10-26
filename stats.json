@@ -17,8 +17,8 @@
       "path---meka-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a64a86aaab331b45ce8b.js",
-      "component---src-layouts-index-js-a64a86aaab331b45ce8b.js.map"
+      "component---src-layouts-index-js-0bf3ecabf6bd9fb18f0d.js",
+      "component---src-layouts-index-js-0bf3ecabf6bd9fb18f0d.js.map"
     ],
     "component---src-pages-kelisto-js": [
       "component---src-pages-kelisto-js-5eee5b317ee37f9ac322.js",
@@ -41,9 +41,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-5bac3f3e537dca93db3e.js",
+      "commons-41b1575e40deb8877244.js",
       "build-js-styles.css",
-      "commons-5bac3f3e537dca93db3e.js.map",
+      "commons-41b1575e40deb8877244.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -63,9 +63,9 @@
       "path---convy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-4695e3a15274eca62a4a.js",
+      "app-f1839fe6bf5572f7e022.js",
       "build-js-styles.css",
-      "app-4695e3a15274eca62a4a.js.map",
+      "app-f1839fe6bf5572f7e022.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
