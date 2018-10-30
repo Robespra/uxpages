@@ -5,8 +5,8 @@
       "path---sharemos-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-ae3c3424d2a6adb2744f.js",
-      "component---src-pages-index-js-ae3c3424d2a6adb2744f.js.map"
+      "component---src-pages-index-js-b7d9e4673bf6148d187f.js",
+      "component---src-pages-index-js-b7d9e4673bf6148d187f.js.map"
     ],
     "path---": [
       "path----aa20e34106f6bd72ba21.js",
@@ -17,42 +17,44 @@
       "path---meka-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-80a568451c689eac36ba.js",
-      "component---src-layouts-index-js-80a568451c689eac36ba.js.map"
+      "component---src-layouts-index-js-7a0ad5907b2b7168ba55.js",
+      "component---src-layouts-index-js-7a0ad5907b2b7168ba55.js.map"
     ],
     "component---src-pages-kelisto-js": [
-      "component---src-pages-kelisto-js-9cfc3ab0e4a21b4a7cc7.js",
-      "component---src-pages-kelisto-js-9cfc3ab0e4a21b4a7cc7.js.map"
+      "component---src-pages-kelisto-js-c6d69f6c56ff4e2cd4dd.js",
+      "component---src-pages-kelisto-js-c6d69f6c56ff4e2cd4dd.js.map"
     ],
     "component---src-pages-convy-js": [
-      "component---src-pages-convy-js-027f922384e9876241a4.js",
-      "component---src-pages-convy-js-027f922384e9876241a4.js.map"
+      "component---src-pages-convy-js-558945471a235bb192d0.js",
+      "component---src-pages-convy-js-558945471a235bb192d0.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-meka-js": [
-      "component---src-pages-meka-js-3716fa3c8de54175f604.js",
-      "component---src-pages-meka-js-3716fa3c8de54175f604.js.map"
+      "component---src-pages-meka-js-b28df2dd6982a382ecc6.js",
+      "component---src-pages-meka-js-b28df2dd6982a382ecc6.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-5bccc886420fee0faa78.js",
-      "build-js-styles.css",
-      "commons-5bccc886420fee0faa78.js.map",
-      "build-js-styles.css.map"
+      "commons-7e2ff7d122439f2c282d.js",
+      "commons-7e2ff7d122439f2c282d.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-sharemos-js": [
-      "component---src-pages-sharemos-js-6f385a2ff0676a3993eb.js",
-      "component---src-pages-sharemos-js-6f385a2ff0676a3993eb.js.map"
+      "component---src-pages-sharemos-js-06c435a89210f07b1f56.js",
+      "component---src-pages-sharemos-js-06c435a89210f07b1f56.js.map"
     ],
     "path---kelisto": [
       "path---kelisto-a0e39f21c11f6a62c5ab.js",
@@ -62,10 +64,14 @@
       "path---convy-a0e39f21c11f6a62c5ab.js",
       "path---convy-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
     "app": [
-      "app-baa86d1f6c3e652568f7.js",
+      "app-a5ef9b32f6c484967ab5.js",
       "build-js-styles.css",
-      "app-baa86d1f6c3e652568f7.js.map",
+      "app-a5ef9b32f6c484967ab5.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
