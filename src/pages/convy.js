@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Icon from '../components/icons'
+let pathPrefix = `/`
 
 const Convy = () => (
 <div>

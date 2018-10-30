@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import Icon from '../components/icons'
 let pathPrefix = `/`
 
-
 const Meka = () => (
 <div>
 <div className="meka_bg">
