@@ -5,6 +5,14 @@ let pathPrefix = `/`
 
 const Header = ({ siteTitle }) => (
 <div>
+<div id="header-mobile">
+<Link className="menu__item" to="/"><img src={require('../images/uxpages_logo.svg')} alt="test" /></Link>
+           <Link className="menu__item" to="../#recent_work"><span className="menu__item-name">case studies</span></Link>
+           <Link className="menu__item" to="../#skills"><span className="menu__item-name">capabilities</span></Link>
+            <Link className="menu__item" to="../#side_project"><span className="menu__item-name">side project</span></Link>
+    <Link className="menu__item" to="../#contact-form"><span className="menu__item-name">contact</span></Link>
+        </div>
+
 
   <div className="availability">
     <h6>I am available for product design projects starting January 2019. Interested? 

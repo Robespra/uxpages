@@ -25,7 +25,7 @@ const IndexPage = () => (
 
 
 <div className="row align-center">
-<div className="small-11 columns last-prjct padding5_both">
+<div className="small-9 medium-11 columns last-prjct padding5_both">
 <div id="recent_work" className="row prjct-dtls">
 	<div className="small-11 columns dtls-text">
 		<h3>Helping companies to convert more with convy</h3>
@@ -147,7 +147,7 @@ const IndexPage = () => (
 </div>
 
 <div id="skills" className="row align-center padding5_both">
-    <div className="small-11 medium-11 columns">
+    <div className="small-9 medium-11 columns">
         <h2>how can I help you ?</h2>
 
         <h3>I started designing <span className="skills_highlight">user interface </span>in 1999 and have progressively expanded my skillset to <span className="skills_highlight">strategic product-oriented UX design.</span> Product design is not an art guided solely by creativity and intuition : I do believe in <span className="skills_highlight">lean customer development and metrics.</span>
@@ -240,7 +240,7 @@ const IndexPage = () => (
 </div>
 
 <div className="row align-center padding5_both">
-    <div className="small-11 columns">
+    <div className="small-9 medium-11 columns">
     <h2 className="" id="myanchor">currently learning...</h2>
     <div className="skills_underline_orange"></div>
 
@@ -294,7 +294,7 @@ const IndexPage = () => (
 
 
 <div id="fourth" className="row align-center padding5_both">
-	<div className="small-11 medium-11 columns">
+	<div className="small-9 medium-11 columns">
 		<div className="row">
 			<div className="small-11 medium-4 columns">
 				<small>LATEST PUBLICATIONS</small>
@@ -333,7 +333,7 @@ const IndexPage = () => (
 
 
 <div className="row align-center">
-	<div className="small-11 columns padding10_top padding5_bottom">
+	<div className="small-9 medium-11 columns padding10_top padding5_bottom">
 	  <h2 className="">That's all, folks ! let's get in touch. </h2>
 	                 <div className="skills_underline_orange"></div>
 	                <p className="padding5_top">Let's create great experiences and make your project generate more revenue. I am currently available for projects in Europe.</p>
