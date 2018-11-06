@@ -118,14 +118,15 @@ const Convy = () => (
 
 <p className="text-left content-project">
         <ul className="no_bullet">
-            <li className="checked">Visual hierarchy, negative space, Fitts law. Missing progressive disclosure (too much text)</li>
+            <li className="checked">Visual hierarchy, negative space, Fitts law.</li>
+            <li className="checked">Missing progressive disclosure (too much text)</li>            
             <li className="checked">Hick's law : too many alternatives</li>
             <li className="checked">Too complex forms</li>
             <li className="checked">Missing affordance</li>
             <li className="checked">Missing authority / social proof</li>
             <li className="checked">Responsiveness of website in mobile phones</li>
             <li className="checked">Missing progress and status</li>
-            <li className="checked twolines">Basic processes not being defaulted (e.g. payment methods, user accounts, checkout...) resulting in losing customers. We are creatures of habit.</li>
+            <li className="checked twolines">We are creatures of habit : basic processes not being defaulted (payment methods, checkout...)</li>
             <li className="checked">Lack of scarcity</li>
             <li className="checked twolines">Lack of personality and emotion</li>
         </ul>
@@ -146,8 +147,13 @@ const Convy = () => (
         <p className="text-left content-project">We help our clients launching new digital products in all the phases of the conception of their MVP from framing (Product definition, Business Canvas, User interviews) definition of the competitive landscape, value proposition / identified opportunities, profitability model / metrics and growth perspective to technology and Key features for MVP (Buyer user journey and features, features priorization, Selected features for MVP vs Competition, technical effort estimation). </p>
          <img className="padding5_top lazy" src={require('../images/convy/case_convy3.jpg')} alt="convy optimization case study"/>
         <p className="caption padding5_bottom">working document mixing user journey and associated features for priorization</p>
-        <p className="text-left content-project">We bring the product to reality with the following process :
-        1/low-fi (sketch prototype including onboarding), 2/Hi-fi prototype (using the Sketch Mirror app), 3/ Interaction Design via the InVision Craft extension for Sketch, 4/test with users and adjusted backlog.</p>
+        <p className="text-left content-project">We bring the product to reality with the following process :</p>
+        <ul className="no_bullet">
+            <li className="list-space">1/ Low-fi (sketch prototype including onboarding),</li>
+            <li className="list-space">2/ Hi-fi prototype (using the Sketch Mirror app),</li>            
+            <li className="list-space">3/ Interaction Design via the InVision Craft extension for Sketch,</li>
+            <li className="list-space">4/ Test with users and adjusted backlog.</li>
+        </ul>
 <div className="padding5_both"></div>
 <h4 className="padding5_top">skills I grew in this project</h4>
                 <div className="skills_underline_orange"></div>

@@ -161,7 +161,7 @@ const IndexPage = () => (
         </div>
         <div className="row align-left padding5_both">
         <div className="small-11 medium-2 large-1 columns">
-        <Icon name="svgicon-assessment" />
+        <img className="icon-svg svgicon-assessment" src={require('../images/svgicon-assessment.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns">
                 <h4>research</h4>
@@ -178,7 +178,7 @@ const IndexPage = () => (
                 </ul>
             </div>
             <div className="small-11 medium-2 large-1 columns">
-               <Icon name="svgicon-vision" />
+            <img className="icon-svg svgicon-vision" src={require('../images/svgicon-vision.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns">
                 <h4>ideation</h4>
@@ -195,7 +195,7 @@ const IndexPage = () => (
                 </ul>
             </div>
             <div className="small-11 medium-2 large-1 columns padding5_top">
-               <Icon name="svgicon-business_obj" />
+            <img className="icon-svg svgicon-business_obj" src={require('../images/svgicon-business_obj.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns padding5_top">
                 <h4>design for business</h4>
@@ -214,20 +214,19 @@ const IndexPage = () => (
                 </ul>
             </div>
             <div className="small-11 medium-2 large-1 columns padding5_top">
-                <Icon name="svgicon-execution"/>
+            <img className="icon-svg svgicon-execution" src={require('../images/svgicon-execution.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns padding5_top">
                 <h4>implementation</h4>
                 <div className="skills_underline_orange"></div>
                 <ul className="no_bullet">
-                <li className="checked twolines">design system for various UI platforms (native mobile apps, responsive 
-  design)</li>
+                <li className="checked">design system for various UI platforms</li>
                 <li className="checked">streamlined design handoff to dev</li>
                 <li className="checked">visual design & illustration</li>
-                <li className="checked">svg vectors drawing / iconography</li>
-                <li className="checked twolines">front integration in fast-paced, iterative dev environment: ror, angular, php</li>
-                <li className="checked twolines">sass/less css preprocessors</li>
-                <li className="checked">javascript (jquery, angular2)</li>
+                <li className="checked ">svg vectors drawing / iconography</li>
+                <li className="checked">front integration (ror, angular, react, php)</li>
+                <li className="checked">sass/less css preprocessors</li>
+                <li className="checked">javascript (jquery, angular2, react)</li>
                 <li className="checked">css frameworks</li>
                 <li className="checked twolines">collaborative work in cross-departmental teams</li>
                 <li className="checked">project management (agile dev)</li>
@@ -246,22 +245,22 @@ const IndexPage = () => (
 
         <div className="row align-left padding10_top">          
             <div className="small-1 medium-1 columns">
-          <Icon name="svgicon-figma"/>
+            <img className="icon-svg svgicon-figma" src={require('../images/svgicon-figma.svg')} alt="uxpages research"/>
             </div>
-            <div className="small-3 medium-3 columns padding5_bottom">
+            <div className="small-3 medium-2 columns padding5_bottom">
             figma
             </div>
             <div className="small-1 medium-1 columns ">
-           <Icon name="svgicon-virtual_reality"/>
+            <img className="icon-svg svgicon-virtual_reality" src={require('../images/svgicon-virtual_reality.svg')} alt="uxpages research"/>
             </div>
-            <div className="small-3 medium-3 columns padding5_bottom">
+            <div className="small-3 medium-2 columns padding5_bottom">
             VR
             </div>
-    		<Icon name="svgicon-chef-hat"/>
+            <img className="icon-svg svgicon-chef-hat" src={require('../images/svgicon-chef-hat.svg')} alt="uxpages research"/>
             <div className="small-1 medium-1 columns ">
            
             </div>
-            <div className="small-3 medium-3 columns padding5_bottom">
+            <div className="small-3 medium-2 columns padding5_bottom">
             homemade khao neeo mamuang !
             </div>
         </div>
@@ -360,9 +359,12 @@ const IndexPage = () => (
 <p></p>
 
 
-<Link to="#" target="_blank" rel="noopener"><Icon name="svgicon-instagram"/></Link>
+<Link to="#" target="_blank" rel="noopener">
+<img className="icon-svg svgicon-instagram" src={require('../images/svgicon-instagram.svg')} alt="uxpages research"/>
+</Link>
 <Link to="https://github.com/Robespra" target="_blank" rel="noopener">
- <Icon name="svgicon-github"/></Link>
+<img className="icon-svg svgicon-github" src={require('../images/svgicon-github.svg')} alt="uxpages research"/>
+</Link>
 
 </div>
 </div>

@@ -64,14 +64,14 @@ const Kelisto = () => (
 
 <img src={require('../images/kelisto/numbers_kelisto.svg')} alt="kelisto metrics"/>
 
- <p className="text-left content-project">
-     
-     List of the <strong>products</strong> designed for kelisto :
-     <strong>- 8 responsive price comparision products + own products vertical subproducts</strong>
-     <strong>- Responsive Customer Account Dashboard (CAM)</strong>
-     <strong>- Responsive Community product</strong>
-     <strong>- Responsive News Content Management</strong>
-     </p>
+ <p className="text-left content-project">List of the <strong>products</strong> designed for kelisto :</p>
+ <ul className="no_bullet">
+            <li className="checked"> <strong>8 </strong>responsive price comparision products + own products vertical subproducts</li>
+            <li className="checked"><strong>Responsive</strong> Customer Account Dashboard (CAM)</li>            
+            <li className="checked">Responsive <strong>Community product</strong></li>
+            <li className="checked">Responsive <strong>News</strong> Content Management</li>
+        </ul>
+
 
 
 <h3 className="project-title padding10_top">Strategy for multiple product launch</h3>
@@ -258,76 +258,9 @@ usability benchmarking, online assessments, surveys, A/B testing, usability chec
                 </ul>
 </div> 
       </div>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div> 
-
-
-
-
-
-
-
-
 </div>
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div className="white">
 <div className="row align-center white padding15_bottom">

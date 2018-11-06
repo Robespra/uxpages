@@ -77,16 +77,16 @@ Creativity is about connecting dots. When designing meka we decided to connect p
 
 <h2 className="project-title padding5_top">Framing / product validation</h2>
 <p className="text-left content-project">
-Framing the project with a couple of short sentences help to drive upcoming researches toward the correct direction. 
+Framing the project with a couple of short sentences help to drive upcoming researches toward the correct direction. </p>
+<p className="no_bullet"><strong>Our product is:</strong></p>
+<ul className="no_bullet">
+            <li className="list-space"><strong>For</strong>  individuals and companies,</li>
+            <li className="list-space"><strong>Who</strong> want to assess and train creativity,</li>            
+            <li className="list-space"><strong>The</strong> process is run by a AI driven chat bot,</li>
+            <li className="list-space"><strong>That</strong> makes assessment faster and more accurate, </li>
+            <li className="list-space"><strong>Unlike</strong> most of the generic form products.</li>
+        </ul>
 
-<strong>Our product is:</strong>
-<strong>For</strong>  individuals and companies
-<strong>Who</strong> want to assess and train creativity
-<strong>The</strong> mēkā product is a AI driven chat bot
-<strong>That</strong> makes assessment faster and more accurate 
-<strong>Unlike</strong> most of the generic form products 
-
-</p>
 
 
 <h3 className="project-title padding5_top">Users and market research</h3>
@@ -162,9 +162,8 @@ This would have meant that many users would have quickly drop the process... </p
 <h4 className="project-title padding5_top">Our hybrid approach : capturing relevant information in a playful way</h4>
 
     <video width="100%" height="auto" autoplay="autoplay" loop>
-  <source src="images/prototype_smaller.mp4" type="video/mp4"/>
+  <source src={require('../images/meka/prototype_smaller.mp4')} type="video/mp4"/>
 </video>
-
 
 <p className="caption">prototype</p>
 
@@ -177,7 +176,7 @@ This would have meant that many users would have quickly drop the process... </p
 This hybrid conversation interface approach allowed us to be more creative for a better man-machine interactions. I created our friendly character, mēkā. mēkā will be the face of our product. I wanted it to be playful, funny and easy going in order to immediately grab users' attention and become memorable to them. To do so I looked for inspiration and wanted to create a Kawaii face style to connect with the user. I only took the charming and childlike parts from Kawaii as we also needed to provide authority to the character. On the technical side, we needed a character light and easy to animate so we used SVG. For the BETA version I kept the interaction pretty simples but I am working on more complex interactions as I am convinced that quality interactions with mēkā will lead to quality engagement.
 </p>
 
-<img className="hero_project padding5_top" src={require('../images/meka/meka_face.svg')} alt="meka case study face ui social cues"/>
+<img className="padding5_top meka_face" src={require('../images/meka/meka_face.svg')} alt="meka case study face ui social cues"/>
 <p className="caption ">mēkā, the mascot I designed for UI interactions and increase user engagement 
 (did you notice the Bowie touch? ;-) Made in SVG vectors for better quality, performance and animations</p>
 <h5 className="project-title padding5_top">Increasing engagement with social cues</h5>
