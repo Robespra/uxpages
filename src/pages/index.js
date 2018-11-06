@@ -11,7 +11,7 @@ let pathPrefix = `/`
 
 const IndexPage = () => (
 
-<div className="row align-middle hero_block">
+<div className="row align-center hero_block">
 
 
 	<div className="small-11 medium-6 columns hero_pctre">
@@ -21,12 +21,12 @@ const IndexPage = () => (
 	    <h1 className="hidden-h1">uxpages ux pages</h1>
 	    <h2 className="hero_line">I design digital products from ux strategy to implementation</h2>
 </div>
-<div id="recent_work" className="row prjct-dtls">
+<div className="row prjct-dtls">
 
 
-<div className="row align-center">
+<div id="recent_work" className="row align-center">
 <div className="small-9 medium-11 columns last-prjct padding5_both">
-<div id="recent_work" className="row prjct-dtls">
+<div className="row prjct-dtls">
 	<div className="small-11 columns dtls-text">
 		<h3>Helping companies to convert more with convy</h3>
 		<div className="skills_underline_orange"></div>
@@ -146,7 +146,7 @@ const IndexPage = () => (
 </div>
 </div>
 
-<div id="skills" className="row align-center padding5_both">
+<div id="skills" className="row align-center padding5_top">
     <div className="small-9 medium-11 columns">
         <h2>how can I help you ?</h2>
 
@@ -234,40 +234,40 @@ const IndexPage = () => (
                 
                 </ul>
             </div>
+            <div className="small-11 medium-11 columns padding10_top"> 
+                <h2 className="">currently learning...</h2>
+                <div className="skills_underline_orange"></div> 
+                <div className="show-for-medium medium-1 columns padding5_bottom"></div>
+                <div className="small-12 columns padding5_bottom ">
+    <img className="icon-svg svgicon-chef-hat" src={require('../images/svgicon-chef-hat.svg')} alt="uxpages research"/>
+    homemade khao neeo mamuang !
+    </div>
+    <div className="small-12 columns padding5_bottom">
+    <img className="icon-svg svgicon-figma" src={require('../images/svgicon-figma.svg')} alt="uxpages research"/>
+    figma
+    </div>
+    <div className="small-12 columns padding5_bottom">
+    <img className="icon-svg svgicon-virtual_reality" src={require('../images/svgicon-virtual_reality.svg')} alt="uxpages research"/>
+    VR
+    </div>
+  
+        </div> 
+
         </div>
     </div>
-</div>
-
-<div className="row align-center padding5_both">
-    <div className="small-9 medium-11 columns">
-    <h2 className="" id="myanchor">currently learning...</h2>
-    <div className="skills_underline_orange"></div>
-
-        <div className="row align-left padding10_top">          
-            <div className="small-1 medium-1 columns">
-            <img className="icon-svg svgicon-figma" src={require('../images/svgicon-figma.svg')} alt="uxpages research"/>
-            </div>
-            <div className="small-3 medium-2 columns padding5_bottom">
-            figma
-            </div>
-            <div className="small-1 medium-1 columns ">
-            <img className="icon-svg svgicon-virtual_reality" src={require('../images/svgicon-virtual_reality.svg')} alt="uxpages research"/>
-            </div>
-            <div className="small-3 medium-2 columns padding5_bottom">
-            VR
-            </div>
-            <img className="icon-svg svgicon-chef-hat" src={require('../images/svgicon-chef-hat.svg')} alt="uxpages research"/>
-            <div className="small-1 medium-1 columns ">
-           
-            </div>
-            <div className="small-3 medium-2 columns padding5_bottom">
-            homemade khao neeo mamuang !
-            </div>
-        </div>
     </div>
-</div>
-</div>
-<div className="row align-center">
+   
+    </div>
+
+
+
+
+
+
+
+
+
+<div className="row align-center padding5_top">
 	<div className="small-11 medium-11 columns">
 		<h2 id="side_project">side project</h2>
 		<div className="skills_underline_orange"></div>
@@ -375,7 +375,7 @@ const IndexPage = () => (
 
 
     <footer>
-    <div className="row large-unstack align-middle">
+    <div className="row large-unstack align-center">
       <div className="column">
         <small>&copy; 2018 uxpages eirl</small>
       </div>
