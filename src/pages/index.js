@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import formData from '../components/formData'
+import form from '../components/formData'
 
 let pathPrefix = `/`
 
