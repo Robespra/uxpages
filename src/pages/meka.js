@@ -16,7 +16,10 @@ const Meka = () => (
         <div className="skills_underline_orange"></div>
         <h3 className="project-title">Using psychology, ai and conversational interface to help people being more creative</h3>
     </div>
-    <div className="hero_project_img"><img src={require('../images/meka/intro_top_meka.jpg')} alt="convy case study hero image"/>
+
+    <div className="hero_project_img_meka">
+    
+    <img src={require('../images/meka/meka_face_animated.svg')} alt="meka face"/>
   </div>
 </div>
 

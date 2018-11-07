@@ -5,9 +5,8 @@ let pathPrefix = `/`
 
 
 const Footer = ({ siteTitle }) => (
-    <div>
+    <div className="footer_bg">
     
-
 <div className="row align-center">
 	<div className="small-9 medium-11 columns padding10_top padding5_bottom">
 	  <h2 className="">That's all, folks ! let's get in touch. </h2>

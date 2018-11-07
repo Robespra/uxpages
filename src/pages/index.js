@@ -266,7 +266,7 @@ const IndexPage = () => (
 
 <div className="row align-center padding5_top">
 	<div className="small-11 medium-11 columns">
-		<h2 id="side_project">side project</h2>
+		<h2 id="side_project">side projects</h2>
 		<div className="skills_underline_orange"></div>
 		<div className="small-11 medium-11 columns">
 			<div className="alpe_rouge_container">
