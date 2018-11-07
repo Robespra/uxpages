@@ -118,67 +118,6 @@ We planned internationalization of the the product in the earliest phase of the 
 </div>   
 </div> 
 
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div className="white">
-<div className="row align-center white padding15_bottom">
-	<div className="small-11 columns padding10_top padding5_bottom">
-	  <h2 className="">That's all, folks ! let's get in touch. </h2>
-	                 <div className="skills_underline_orange"></div>
-	                <p className="padding5_top">Let's create great experiences and make your project generate more revenue. I am currently available for projects in Europe.</p>
-	                <p>Get in touch with me by filling the form below. You can also directly  <a href="https://calendly.com/uxpages/30min" target="_blank" rel="noopener" className="link_underlined"> schedule a call <span className="target_blank"></span></a></p>
-	</div>
-	<div className="small-11 medium-6 columns white">
-		<form name="contact" id="contact-form" action="//formspree.io/hola@uxpages.com" method="post" className="topBefore padding5_top">
-			<label for="email"><span className="label-form">What's your e-mail address?</span></label>
-			<input id="email" type="email" name="Email" required/>
-			 <label className="label-form padding5_top" for="message"><span>Message</span></label>
-			<textarea id="message" className="" name="Message" cols="1" rows="6" required></textarea>
-
-			<input className="is-hidden" type="text" name="_gotcha"/>
-			<input type="hidden" name="_subject" value="Subject"/>
-			<input type="hidden" name="_cc" value="email@cc.com"/>
-			<input id="submit" className="submitBtn" type="submit" value="Send" onclick="track('Click-send-contact-form','Click-send-contact-form')"/>
-		</form>
-	</div>
-<div className="small-11 medium-5 columns orange">
-            <Link to="mailto:&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;" className="email_footer">&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;</Link>
-<p></p>
-
-
-<Link to="#" target="_blank" rel="noopener"><Icon name="svgicon-instagram"/></Link>
-<Link to="https://github.com/Robespra" target="_blank" rel="noopener"><Icon name="svgicon-github"/></Link>
-
-</div>
-<div>
- <footer className="padding10_bottom">
-    <div className="row large-unstack align-middle">
-      <div className="column">
-        <small>&copy; 2018 uxpages eirl</small>
-      </div>
-    </div>
-</footer>
-</div>
-
-
-</div>
 </div>
 
 </div>
