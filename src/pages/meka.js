@@ -1,7 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Icon from '../components/icons'
+import ProtoVidsmall from '../images/meka/prototype_smaller.mp4'
+import ProtoVid from '../images/meka/prototype.mp4'
 let pathPrefix = `/`
+
+
+
 
 const Meka = () => (
 <div>
@@ -162,7 +167,7 @@ This would have meant that many users would have quickly drop the process... </p
 <h4 className="project-title padding5_top">Our hybrid approach : capturing relevant information in a playful way</h4>
 
     <video width="100%" height="auto" autoplay="autoplay" loop>
-  <source src={require('../images/meka/prototype_smaller.mp4')} type="video/mp4"/>
+  <source src={ProtoVid} type="video/mp4"/>
 </video>
 
 <p className="caption">prototype</p>
@@ -350,7 +355,7 @@ Overall product strategy including long-term goals and KPI, Product roadmap incl
 
 
     <video className="padding10_top" width="100%" height="auto" autoplay="autoplay" loop>
-  <source src="images/prototype.mp4" type="video/mp4"/>
+  <source src="{proto}" type="video/mp4"/>
 </video>
 
 

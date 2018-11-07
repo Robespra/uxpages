@@ -11,8 +11,33 @@ const Convy = () => (
         <div className="skills_underline_orange"></div>
         <h3 className="project-title">Helping companies to convert more</h3>
     </div>
-    <div className="hero_project_img"><img src={require('../images/convy/intro_top_convy.jpg')} alt="convy case study hero image"/>
+    <div className="hero_project_img">
+    <div className="phone_container">
+<div className="isometric">
+<div className="mobile_phone">
+
+<img src={require('../images/convy/mobile_phone.svg')} alt="convy optimization case study"/>
+</div> 
+</div> 
+</div> 
+
+  <div className="phone_container">
+<div className="isometric">
+<div className="mobile_phone">
+<img src={require('../images/convy/mobile_phone2.svg')} alt="convy optimization case study"/>
+</div> 
+</div> 
+</div>
+    
+    {/* <img src={require('../images/convy/intro_top_convy.jpg')} alt="convy case study hero image"/> */}
   </div>
+  <div className="row align-left">
+        <div className="small-8 columns">
+        case
+        year
+        etc
+        </div>
+    </div>
 </div>
 
 <div className="section">
