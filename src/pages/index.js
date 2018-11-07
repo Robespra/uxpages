@@ -1,12 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Icon from '../components/icons'
+import formData from '../components/formData'
+
 let pathPrefix = `/`
 
 
 
 const IndexPage = () => (
 <div>
+
 
 
 
@@ -337,18 +339,18 @@ const IndexPage = () => (
 	</div>
 
 	<div className="small-11 medium-6 columns white">
-		<form name="contact" id="contact-form" action="//formspree.io/hola@uxpages.com" method="post" className="topBefore padding5_top">
+		<form name="contactForm" id="contactForm" action="https://formspree.io/hola@uxpages.com" method="post" className="topBefore padding5_top">
 			<label for="email"><span className="label-form">What's your e-mail address?</span></label>
 			<input id="email" type="email" name="Email" required/>
 			 <label className="label-form padding5_top" for="message"><span>Message</span></label>
-			<textarea id="message" className="" name="Message" cols="1" rows="6" required></textarea>
+			<textarea id="message" className="" name="Message" cols="1" rows="6" placeholder="Message" required></textarea>
 
-			<input className="is-hidden" type="text" name="_gotcha"/>
-			<input type="hidden" name="_subject" value="Subject"/>
-			<input type="hidden" name="_cc" value="email@cc.com"/>
-			<input id="submit" className="submitBtn" type="submit" value="Send" onclick="track('Click-send-contact-form','Click-send-contact-form')"/>
+			
+			<input id='send-button' className="submitBtn" type="submit" value="Send"/>
 		</form>
 
+
+       
 	</div>
 
 <div className="small-11 medium-5 columns orange">

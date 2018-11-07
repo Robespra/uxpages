@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Icon from '../components/symbol-defs.svg'
 let pathPrefix = `/`
 
 const Header = ({ siteTitle }) => (
