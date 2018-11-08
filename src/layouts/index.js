@@ -34,7 +34,7 @@ const Layout = ({ children, data }) => (
     <meta name="twitter:title" content="uxpages ux design front end development"/>
     <meta name="twitter:description" content="uxpages ux design front end development"/>
     <meta name="twitter:image" content="https://robespra.github.io/uxpages/images/logo-social.png"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"/>
+  
 
 
 
