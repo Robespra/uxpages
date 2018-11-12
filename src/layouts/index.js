@@ -10,31 +10,27 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
         <Helmet
-            defaultTitle="uxpages.com"
+            defaultTitle="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"
             titleTemplate="uxpages.com - %s"
     >
     <html lang="en" amp />
-    <!-- Primary Meta Tags -->
-<title>uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design</title>
-<meta name="title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design">
-<meta name="description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design">
+<meta name="title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
+<meta name="description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://robespra.github.io/uxpages/">
-  <meta property="og:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design">
-  <meta property="og:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design">
-  <meta property="og:image" content="https://robespra.github.io/uxpages/images/logo-social.png">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://robespra.github.io/uxpages/"/>
+  <meta property="og:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
+  <meta property="og:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
+  <meta property="og:image" content="https://robespra.github.io/uxpages/images/logo-social.png"/>
   <meta name="mobile-web-app-capable" content="yes"/> 
   <meta name="apple-mobile-web-app-capable" content="yes"/> 
   <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black"/> 
   <meta name="apple-mobile-web-app-title" content="uxpages"/>
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://robespra.github.io/uxpages/">
-  <meta property="twitter:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design">
-  <meta property="twitter:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design">
-  <meta property="twitter:image" content="https://robespra.github.io/uxpages/images/logo-social.png">
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content="https://robespra.github.io/uxpages/"/>
+  <meta property="twitter:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
+  <meta property="twitter:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
+  <meta property="twitter:image" content="https://robespra.github.io/uxpages/images/logo-social.png"/>
 
   
 
