@@ -92,7 +92,7 @@ Information Architecture
 - Field Study
 - SWOT Analysis
 <img src={require('../images/sharemos/linkedin-header.jpg')} alt="sharemos experience ad bike"/>
-<img src={require('../images/sharemos/experience_pub_music.jpg')} alt="sharemos experience ad guitar"/>
+
 <h3 className="project-title padding10_top">Front-end</h3>
 <ul className="no_bullet">
             <li className="checked">Design integration in Rails environment</li>
@@ -103,6 +103,7 @@ Information Architecture
             <li className="checked">Responsive design</li>
             <li className="checked">Internationalization</li> 
     </ul>
+    <img src={require('../images/sharemos/experience_pub_music.jpg')} alt="sharemos experience ad guitar"/>
 <h4 className="project-title">Internationalization</h4>
 We planned internationalization of the the product in the earliest phase of the design and development. This allowed a better scalability and a faster roll out. 
 <img src={require('../images/sharemos/case_sharemos_2.png')} alt="sharemos case study hero image"/>
