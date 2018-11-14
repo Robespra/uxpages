@@ -7,14 +7,41 @@ let pathPrefix = `/`
 const Sharemos = () => (
 <div>
 <div className="sharemos_bg">
-    <div className="hero_project_title_block">
+<div className="hero_project_title_block">
         <h1 className="project-title">sharemos.com</h1>
         <div className="skills_underline_orange"></div>
-        <h3 className="project-title"> [ENG / SPANISH] Two-side marketplace.
-Rent whatever you need from people like you. Wherever.</h3>
     </div>
-    <div className="hero_project_img"><img src={require('../images/sharemos/case_sharemos_3.png')} alt="sharemos case study hero image"/>
-  </div>
+    <div className="hero_project_img">
+    <img src={require('../images/sharemos/Product_pub_book.png')} alt="sharemos hero case study"/>
+    </div>
+  <div className="row align-left hero_dtls">
+        <div className="small-11 medium-8 columns">
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-6 column">
+                <h3 className="">Client</h3>
+                <h2 className="project-title">sharemos.com</h2>
+            </div>
+            <div className="small-11 medium-6 columns">
+                <h3 className="">Year</h3>
+                <h2 className="project-title">2015/2017</h2>
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Case</h3>
+                <h2 className="project-title">Two-side marketplace for people willing to rent any kind of item. Wherever. It was designed to be the airbnb of things.</h2>
+
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Scope</h3>
+                <h2 className="project-title">Price comparators, ecommerce & content, CRO, UI/UX improvements, Front-end Dev</h2>
+
+            </div>
+        </div>
+        </div>
+    </div>
 </div>
 <div className="section">
 <div className="row align-center padding5_top">
@@ -24,7 +51,7 @@ Rent whatever you need from people like you. Wherever.</h3>
     <h3 className="project-title">Overview</h3>
 
     <p className="text-left content-project">
-Sharemos is a two-side marketplace for people willing to rent any kind of item. Wherever. It was designed to be the airbnb of things. I am still working on this case study. Please come back in a few weeks !</p>
+I am still working on this case study. Please come back in a few weeks !</p>
 
 
 <div className="row align-center">
@@ -64,7 +91,8 @@ Information Architecture
 - Concept Testing
 - Field Study
 - SWOT Analysis
-
+<img src={require('../images/sharemos/linkedin-header.jpg')} alt="sharemos experience ad bike"/>
+<img src={require('../images/sharemos/experience_pub_music.jpg')} alt="sharemos experience ad guitar"/>
 <h3 className="project-title padding10_top">Front-end</h3>
 <ul className="no_bullet">
             <li className="checked">Design integration in Rails environment</li>

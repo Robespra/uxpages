@@ -7,15 +7,43 @@ const Kelisto = () => (
 <div>
 
 <div className="kelisto_bg">
-    <div className="hero_project_title_block">
+<div className="hero_project_title_block">
         <h1 className="project-title">kelisto.es</h1>
         <div className="skills_underline_orange"></div>
-        <h2 className="project-title">Designing for a data heavy application</h2>
-        <h3 className="project-title"> 2 years project. Price comparators. Ecommerce & content.</h3>
     </div>
     <div className="hero_project_img">
     <img src={require('../images/kelisto/case_kelisto_1.png')} alt="kelisto hero case study"/>
     </div>
+  <div className="row align-left hero_dtls">
+        <div className="small-11 medium-8 columns">
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-6 columns">
+                <h3 className="">Client</h3>
+                <h2 className="project-title">kelisto.es</h2>
+            </div>
+            <div className="small-11 medium-6 columns">
+                <h3 className="">Year</h3>
+                <h2 className="project-title">2013/2015</h2>
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Case</h3>
+                <h2 className="project-title">Designing for a data heavy application</h2>
+
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Scope</h3>
+                <h2 className="project-title">Price comparators, ecommerce & content, CRO, UI/UX improvements, Front-end Dev</h2>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+  
 </div>
 
 <div className="section">

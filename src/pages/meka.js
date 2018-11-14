@@ -11,16 +11,43 @@ let pathPrefix = `/`
 const Meka = () => (
 <div>
 <div className="meka_bg">
-    <div className="hero_project_title_block">
-        <h1 className="project-title">mekacreative.io</h1>
+<div className="hero_project_title_block">
+        <h3 className="project-title">mēkā, creative chatbot</h3>
         <div className="skills_underline_orange"></div>
-        <h3 className="project-title">Using psychology, ai and conversational interface to help people being more creative</h3>
     </div>
-
     <div className="hero_project_img_meka">
     
     <img src={require('../images/meka/meka_face_animated.svg')} alt="meka face"/>
   </div>
+  <div className="row align-left hero_dtls">
+        <div className="small-11 medium-8 columns">
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-6 columns">
+                <h3 className="">Client</h3>
+                <h2 className="project-title">mekacreative.io</h2>
+            </div>
+            <div className="small-11 medium-6 columns">
+                <h3 className="">Year</h3>
+                <h2 className="project-title">2018/2019</h2>
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Case</h3>
+                <h2 className="project-title">Using Chatbot, psychology, and ai to help people being more creative</h2>
+
+            </div>
+        </div>
+        <div className="row align-left padding5_bottom">
+            <div className="small-11 medium-10 columns">
+                <h3 className="">Scope</h3>
+                <h2 className="project-title">CRO, Analytics, UI/UX improvements, Front-end Dev</h2>
+
+            </div>
+        </div>
+        </div>
+    </div>
+   
 </div>
 
 <div className="section">
