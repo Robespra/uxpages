@@ -15,9 +15,9 @@ const Meka = () => (
         <h3 className="project-title">mēkā, creative chatbot</h3>
         <div className="skills_underline_orange"></div>
     </div>
-    <div className="hero_project_img_meka">
+    <div className="hero_project_img">
     
-    <img src={require('../images/meka/meka_face_animated.svg')} alt="meka face"/>
+    <img className="meka" src={require('../images/meka/meka_face_animated.svg')} alt="meka face"/>
   </div>
   <div className="row align-left hero_dtls">
         <div className="small-11 medium-8 columns">

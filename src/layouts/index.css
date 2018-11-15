@@ -12,11 +12,29 @@ body{background-color:#F1F1F1;color:#303136;font-family:'Open Sans',sans-serif}.
   font-size: 3em;
 }
 .hero_project_img{    width: 52%;
-  position: relative;
-  float: right;
-  height: auto;
-  z-index: -11;
-  margin-top: 15%;} 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+} 
+.hero_project_img img {
+  float:right;
+  opacity:0.7;
+}
+.hero_project_img .phone_container, .hero_project_img .phone_container2 {
+  float:right;
+}
+
+.hero_project_img .meka {
+  max-width: 800px;
+    margin-top: -5%;
+    float:right;
+}
+
 .hero_project_img_meka {    width: 37%;
   float: right;
   min-width:400px;
@@ -177,13 +195,6 @@ input:-webkit-autofill {
   .kelisto_bg .hero_project_img{width:400px;opacity: 0.3;}
 }
 
-.sharemos_bg .hero_project_img {
-  width:600px;
-}
-@media screen and (max-width:49.9375em){ 
-  .sharemos_bg .hero_project_img{opacity: 0.3;}
-}
-
 @media screen and (max-width:59.9375em){ 
   .convy_bg .hero_project_img{opacity: 0.3;z-index:-11;float:left;}
 }
@@ -232,7 +243,6 @@ input:-webkit-autofill {
 @media screen and (max-width: 59.9375em){
 .sharemos_bg, .meka_bg, .kelisto_bg, .convy_bg{
 position: relative;
-height: auto;
 }
 .section{
 margin-top: 0vh;
