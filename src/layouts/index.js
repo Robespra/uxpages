@@ -30,10 +30,7 @@ const Layout = ({ children, data }) => (
   <meta property="twitter:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
   <meta property="twitter:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
   <meta property="twitter:image" src={require('../images/logo-social.png')}/>
-  <link rel="shortcut icon" src={require('../images/favicon.ico')}/>
-  <link rel="icon" type="image/png" sizes="32x32" src={require('../images/favicon-32x32.png')}/>
-<link rel="icon" type="image/png" sizes="96x96" src={require('../images/favicon-96x96.png')}/>
-<link rel="icon" type="image/png" sizes="16x16" src={require('../images/favicon-16x16.png')}/>
+
 
 
 
