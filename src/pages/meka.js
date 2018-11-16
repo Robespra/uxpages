@@ -196,9 +196,12 @@ This would have meant that many users would have quickly drop the process... </p
 
 <h4 className="project-title padding5_top">Our hybrid approach : capturing relevant information in a playful way</h4>
 
-    <video width="100%" height="auto" autoplay="autoplay" loop>
+
+    <video width="100%" height="auto" loop autoPlay muted>
   <source src={ProtoVid} type="video/mp4"/>
 </video>
+
+
 
 <p className="caption">prototype</p>
 
@@ -380,12 +383,8 @@ Overall product strategy including long-term goals and KPI, Product roadmap incl
 
 
 
-
-
-
-
-    <video className="padding10_top" width="100%" height="auto" autoplay="autoplay" loop>
-  <source src="{ProtoVidsmall}" type="video/mp4"/>
+    <video width="100%" height="auto" loop autoPlay muted>
+  <source src={ProtoVidsmall} type="video/mp4"/>
 </video>
 
 
