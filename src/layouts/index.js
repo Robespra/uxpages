@@ -6,22 +6,21 @@ import Footer from '../components/footer'
 import './foundation.min.css'
 import './index.css'
 
-
 const Layout = ({ children, data }) => (
   <div>
         <Helmet
             defaultTitle="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"
             titleTemplate="uxpages.com - %s"
+            
     >
     <html lang="en" amp />
 <meta name="title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
 <meta name="description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
-
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://robespra.github.io/uxpages/"/>
   <meta property="og:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
   <meta property="og:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
-  <meta property="og:image" content="https://robespra.github.io/uxpages/static/logo-social.png"/>
+  <meta property="og:image" src={require('../images/logo-social.png')}/>
   <meta name="mobile-web-app-capable" content="yes"/> 
   <meta name="apple-mobile-web-app-capable" content="yes"/> 
   <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black"/> 
@@ -30,9 +29,11 @@ const Layout = ({ children, data }) => (
   <meta property="twitter:url" content="https://robespra.github.io/uxpages/"/>
   <meta property="twitter:title" content="uxpages.com - UX Design, Front-end Dev and Conversion Oriented Design"/>
   <meta property="twitter:description" content="Specialized in strategic UX Design, Front-end Dev and Conversion Oriented Design"/>
-  <meta property="twitter:image" content="https://robespra.github.io/uxpages/static/logo-social.png"/>
-  <link rel="shortcut icon" href="https://robespra.github.io/uxpages/static/favicon.ico"></link>
-  
+  <meta property="twitter:image" src={require('../images/logo-social.png')}/>
+  <link rel="shortcut icon" src={require('../images/favicon.ico')}/>
+  <link rel="icon" type="image/png" sizes="32x32" src={require('../images/favicon-32x32.png')}/>
+<link rel="icon" type="image/png" sizes="96x96" src={require('../images/favicon-96x96.png')}/>
+<link rel="icon" type="image/png" sizes="16x16" src={require('../images/favicon-16x16.png')}/>
 
 
 
