@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Icon from '../components/icons'
 import ProtoVidsmall from '../images/meka/prototype_smaller.mp4'
 import ProtoVid from '../images/meka/prototype.mp4'
+import InteracVid from '../images/meka/interaction_meka.mp4'
 let pathPrefix = `/`
 
 
@@ -384,7 +385,7 @@ Overall product strategy including long-term goals and KPI, Product roadmap incl
 
 
     <video width="100%" height="auto" loop autoPlay muted>
-  <source src={ProtoVidsmall} type="video/mp4"/>
+  <source src={InteracVid} type="video/mp4"/>
 </video>
 
 

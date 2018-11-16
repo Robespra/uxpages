@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
+import InteracVid from '../images/meka/interaction_meka.mp4'
 
 let pathPrefix = `/`
 
@@ -70,8 +70,9 @@ const IndexPage = () => (
                     <div className="small-11 medium-8 columns prjct-img_block_pstn-relative_opposite">
                     <div className="prjct-img_block_opposite">
                         <div className="prjct-img_block_inner_pstn-relative_opposite">
-                            <video className="prjct-large-bg lazy" width="100%" height="auto" autoplay="autoplay" loop>
-                            <source src={require('../images/meka/interaction_meka.mp4')}/></video>
+                        <video className="prjct-large-bg lazy" width="100%" height="auto" loop autoPlay muted>
+                            <source src={InteracVid} type="video/mp4"/>
+                        </video>
                             <Link className="project__item-btn" to="../meka" onclick="track('Click-see-project-meka','Click-see-project-meka')"><h5 className="gradient_effect">see case study</h5></Link>  
                         </div>
                     </div>
