@@ -7,10 +7,11 @@ const Kelisto = () => (
 <div>
 
 <div className="kelisto_bg">
-<div className="hero_project_title_block">
 <div className="hero_project_img">
     <img className="kelisto_img" src={require('../images/kelisto/case_kelisto_1.png')} alt="kelisto hero case study"/>
     </div>
+<div className="hero_project_title_block">
+
         <h1 className="project-title">kelisto.es</h1>
         <div className="skills_underline_orange"></div>
     </div>

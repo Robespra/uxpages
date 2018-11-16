@@ -2,8 +2,31 @@ import React from 'react'
 import Link from 'gatsby-link'
 let pathPrefix = `/`
 
-const Header = ({ siteTitle }) => (
-<div>
+
+
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+      hasScrolled: false
+    }
+  }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+}
+handleScroll = (event) => {
+  const scrollTop = window.pageYOffset
+
+  if (scrollTop > 50) {
+    this.setState({ hasScrolled: true })
+  } else {
+    this.setState({ hasScrolled: false })
+  }
+}
+  render() {
+    return (
+      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
 <div id="header-mobile">
 <Link className="menu__item" to="/"><img src={require('../images/uxpages_logo.svg')} alt="test" /></Link>
            <Link className="menu__item" to="../#recent_work"><span className="menu__item-name">case studies</span></Link>
@@ -26,8 +49,11 @@ const Header = ({ siteTitle }) => (
   </nav>
   
 </div>
+    )
+  }
+}
 
-)
+
 
 
 export default Header
