@@ -7,13 +7,15 @@ let pathPrefix = `/`
 const Sharemos = () => (
 <div>
 <div className="sharemos_bg">
+<div className="hero_project_img">
+    <img className="sharemos_img" src={require('../images/sharemos/Product_pub_book.png')} alt="sharemos hero case study"/>
+    </div>
 <div className="hero_project_title_block">
+
         <h1 className="project-title">sharemos.com</h1>
         <div className="skills_underline_orange"></div>
     </div>
-    <div className="hero_project_img">
-    <img src={require('../images/sharemos/Product_pub_book.png')} alt="sharemos hero case study"/>
-    </div>
+   
   <div className="row align-left hero_dtls">
         <div className="small-11 medium-8 columns">
         <div className="row align-left padding5_bottom">
