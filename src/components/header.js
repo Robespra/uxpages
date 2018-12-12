@@ -37,7 +37,7 @@ handleScroll = (event) => {
 
 
   <div className="availability">
-    <h6>I am available for product design projects starting January 2019. Interested? 
+    <h6>I am available for product design projects starting April 2019. Interested? 
     <Link className="fat_underline" to="../#contact-form" onClick="track('Click-contact-project-topbar-index','Click-contact-project-topbar-index')">  contact me</Link></h6>
   </div>
   <nav className="sidebar-nav">
