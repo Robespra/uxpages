@@ -1,10 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Icon from '../components/icons'
-let pathPrefix = `/`
+import Header from '../components/header'
+import Footer from '../components/footer'
+import { Link } from "gatsby"
+// let pathPrefix = `/`
 
 const Convy = () => (
 <div>
+<Header/>
 <div className="convy_bg">
 <div className="hero_project_img">
     <div className="phone_container">
@@ -231,7 +233,7 @@ const Convy = () => (
 
 
 </div>
-
+<Footer/>
 </div>
 
 )

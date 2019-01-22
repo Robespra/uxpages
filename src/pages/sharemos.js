@@ -1,11 +1,14 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Icon from '../components/icons'
-let pathPrefix = `/`
+import Header from '../components/header'
+import Footer from '../components/footer'
+
+
+
 
 
 const Sharemos = () => (
 <div>
+<Header/>
 <div className="sharemos_bg">
 <div className="hero_project_img">
     <img className="sharemos_img" src={require('../images/sharemos/Product_pub_book.png')} alt="sharemos hero case study"/>
@@ -150,7 +153,7 @@ We planned internationalization of the the product in the earliest phase of the 
 </div> 
 
 </div>
-
+<Footer/>
 </div>
 
 

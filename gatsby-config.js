@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'uxpages',
+    description: 'uxpages ux design front end development',
+    siteUrl: 'https://uxpages.com/',
   },
   plugins: [
     // Shortcut for adding plugins without options.
+    `gatsby-plugin-postcss`,
     'gatsby-plugin-react-helmet',
     {
       // Standard plugin with options example
@@ -12,6 +15,12 @@ module.exports = {
         trackingId: "UA-38305116-1",
         head: true,
       },
+        resolve: 'gatsby-plugin-babel',
+        options: {
+          plugins: ['transform-react-jsx'],
+          ignore: ['foo.js', 'bar/**/*.js'],
+        },
+
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
@@ -45,5 +54,5 @@ module.exports = {
       }
     }, 
   ],
-  // pathPrefix: "/uxpages",
+  pathPrefix: "/uxpages",
 }

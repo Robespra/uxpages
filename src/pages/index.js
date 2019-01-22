@@ -1,8 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import InteracVid from '../images/meka/interaction_meka.mp4'
+import Header from '../components/header'
+import Footer from '../components/footer'
 
-let pathPrefix = `/`
+
 
 
 
@@ -11,7 +13,7 @@ const IndexPage = () => (
 
 
 
-
+<Header/>
 
 <div className="row align-middle hero_block">
 	<div className="small-11 medium-6 columns hero_pctre">
@@ -45,7 +47,7 @@ const IndexPage = () => (
                 <div className="prjct-img_block_opposite">
                     <div className="prjct-img_block_inner_pstn-relative_opposite">
                     <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_convy.jpg')} alt="convy"/>
-                        <Link className="project__item-btn" to="../convy" onclick="track('Click-see-project-convy','Click-see-project-convy')"><h5 className="gradient_effect">see case study</h5></Link>
+                        <Link className="project__item-btn" to="/convy/" onclick="track('Click-see-project-convy','Click-see-project-convy')"><h5 className="gradient_effect">see case study</h5></Link>
                     </div>
                 </div>
             </div>
@@ -73,7 +75,7 @@ const IndexPage = () => (
                         <video className="prjct-large-bg lazy" width="100%" height="auto" loop autoPlay muted>
                             <source src={InteracVid} type="video/mp4"/>
                         </video>
-                            <Link className="project__item-btn" to="../meka" onclick="track('Click-see-project-meka','Click-see-project-meka')"><h5 className="gradient_effect">see case study</h5></Link>  
+                            <Link className="project__item-btn" to="/meka/" onclick="track('Click-see-project-meka','Click-see-project-meka')"><h5 className="gradient_effect">see case study</h5></Link>  
                         </div>
                     </div>
                 </div>
@@ -107,7 +109,7 @@ const IndexPage = () => (
                 
                             </div>
                             <img src={require('../images/kelisto/numbers_kelisto.svg')} alt="kelisto hero case study"/>
-                            <Link className="project__item-btn" to="../kelisto" onclick="track('Click-see-project-kelisto','Click-see-project-kelisto')"><h5 className="gradient_effect">see case study</h5></Link>  
+                            <Link className="project__item-btn" to="/kelisto/" onclick="track('Click-see-project-kelisto','Click-see-project-kelisto')"><h5 className="gradient_effect">see case study</h5></Link>  
                         </div>
                     </div>
             </div>
@@ -140,7 +142,7 @@ const IndexPage = () => (
                         <div className="prjct-img_block_inner_pstn-absolute_opposite">
                             
                         </div>
-                        <Link className="project__item-btn" to="../sharemos" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')"><h5 className="gradient_effect">see case study</h5></Link> 
+                        <Link className="project__item-btn" to="/sharemos/" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')"><h5 className="gradient_effect">see case study</h5></Link> 
                     </div>
                 </div>
             </div>
@@ -337,6 +339,7 @@ const IndexPage = () => (
 
 
 
+<Footer/>
 
 
 </div>

@@ -1,11 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Icon from '../components/icons'
-let pathPrefix = `/`
+import Header from '../components/header'
+import Footer from '../components/footer'
+import { Link } from "gatsby"
+
 
 const Kelisto = () => (
 <div>
-
+<Header/>
 <div className="kelisto_bg">
 <div className="hero_project_img">
     <img className="kelisto_img" src={require('../images/kelisto/case_kelisto_1.png')} alt="kelisto hero case study"/>
@@ -292,7 +293,7 @@ usability benchmarking, online assessments, surveys, A/B testing, usability chec
 </div>
 </div>
 
-
+<Footer/>
 </div>
 
 

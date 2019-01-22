@@ -1,16 +1,18 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Icon from '../components/icons'
+import { Link } from 'gatsby'
 import ProtoVidsmall from '../images/meka/prototype_smaller.mp4'
 import ProtoVid from '../images/meka/prototype.mp4'
 import InteracVid from '../images/meka/interaction_meka.mp4'
-let pathPrefix = `/`
+import Header from '../components/header'
+import Footer from '../components/footer'
+
 
 
 
 
 const Meka = () => (
 <div>
+<Header/>
 <div className="meka_bg">
 <div className="hero_project_img">
     
@@ -392,7 +394,7 @@ Overall product strategy including long-term goals and KPI, Product roadmap incl
 
 
 
-
+<Footer/>
 
 </div>
 
