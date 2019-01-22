@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import icon32 from '../static/favicon-32x32.png'
 
 export default class HTML extends React.Component {
   render() {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
@@ -25,6 +27,18 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38305116-1"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+              
+                gtag('config', 'UA-38305116-1');
+                  `,
+            }}
+          />
         </body>
       </html>
     )
@@ -39,3 +53,4 @@ HTML.propTypes = {
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
 }
+

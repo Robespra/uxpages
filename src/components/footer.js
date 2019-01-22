@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
-import form from '../components/formData'
+import form from './formData'
+
 
 
 
