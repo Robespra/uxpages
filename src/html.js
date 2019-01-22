@@ -7,7 +7,7 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="https://robespra.github.io/uxpages/favicon-32x32.png" sizes="32x32"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
