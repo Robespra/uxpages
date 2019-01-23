@@ -9,7 +9,7 @@ const Footer = ({ siteTitle }) => (
     <div className="footer_bg">
     
 <div className="row align-center">
-	<div className="small-9 medium-11 columns padding10_top padding5_bottom">
+	<div className="small-11 columns padding10_top padding5_bottom">
 	  <h2 className="">That's all, folks ! let's get in touch. </h2>
 	                 <div className="skills_underline_orange"></div>
 	                <p className="padding5_top">Let's create great experiences and make your project generate more revenue. I am currently available for projects in Europe.</p>
@@ -53,7 +53,7 @@ const Footer = ({ siteTitle }) => (
 <footer>
     <div className="row large-unstack align-center">
       <div className="column">
-        <small>&copy; 2018 uxpages eirl</small>
+        <small>&copy; 2019 uxpages eirl</small>
       </div>
     </div>
 </footer>

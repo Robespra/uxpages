@@ -27,7 +27,7 @@ const IndexPage = () => (
 
 
 <div id="recent_work" className="row align-center">
-    <div className="small-9 medium-11 columns last-prjct padding5_both">
+    <div className="small-11 columns last-prjct padding5_both">
         <div className="row prjct-dtls">
             <div className="small-11 columns dtls-text">
                 <h3>Helping companies to convert more with convy</h3>
@@ -53,7 +53,7 @@ const IndexPage = () => (
             </div>
         </div>
     </div>
-    <div className="small-9 medium-11 columns last-prjct padding5_both">
+    <div className="small-11 columns last-prjct padding5_both">
         <div className="row prjct-dtls">
             <div className="small-11 columns dtls-text">
                 <h3>Designing a chatbot and a dashboard for mēkācreative.io</h3>
@@ -82,7 +82,7 @@ const IndexPage = () => (
         </div>        
     </div>
 
-    <div className="small-9 medium-11 columns last-prjct padding5_both">
+    <div className="small-11 columns last-prjct padding5_both">
         <div className="row prjct-dtls ">
             <div className="small-11 columns dtls-text">
                 <h3>Multiple products development with kelisto.es</h3>
@@ -115,7 +115,7 @@ const IndexPage = () => (
             </div>
         </div>
     </div>
-    <div className="small-9 medium-11 columns last-prjct padding5_both">
+    <div className="small-11 columns last-prjct padding5_both">
         <div className="row last-prjct-dtls ">
             <div className="small-11 columns dtls-text">
                 <h3>Starting from scratch with sharemos.com</h3>
@@ -151,7 +151,7 @@ const IndexPage = () => (
 </div>
 
 <div id="skills" className="row align-center padding5_top">
-    <div className="small-9 medium-11 columns">
+    <div className="small-11 columns">
         <h2>how can I help you ?</h2>
         <h3>I started designing <span className="skills_highlight">user interface </span>in 1999 and have progressively expanded my skillset to <span className="skills_highlight">strategic product-oriented UX design.</span> Product design is not an art guided solely by creativity and intuition : I do believe in <span className="skills_highlight">lean customer development and metrics.</span>
         </h3>
@@ -275,7 +275,7 @@ const IndexPage = () => (
 			<div className="alpe_rouge_container">
 				<div className="alpe_rouge_bg-text"></div>
 				<div className="alpe_rouge_text_h2">
-					<h2>I also like to work with my hands.</h2>
+					{/* <h2>I also like to work with my hands.</h2> */}
 				</div>
 				<div className="alpe_rouge_text_descrip_container">
 					<div className="alpe_rouge_text_descrip_container_text">
@@ -296,7 +296,7 @@ const IndexPage = () => (
 
 
 <div id="fourth" className="row align-center padding5_both">
-	<div className="small-9 medium-11 columns">
+	<div className="small-11 columns">
 		<div className="row">
 			<div className="small-11 medium-4 columns">
 				<small>LATEST PUBLICATIONS</small>
