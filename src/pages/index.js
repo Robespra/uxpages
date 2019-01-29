@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import InteracVid from '../images/meka/interaction_meka.mp4'
 import Header from '../components/header'
 import Footer from '../components/footer'
-let pathPrefix = `/`
+
 
 
 
