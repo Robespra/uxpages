@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/uxpages",
   siteMetadata: {
     title: 'uxpages',
     description: 'uxpages ux design front end development',
@@ -45,5 +46,4 @@ module.exports = {
     }
     }, 
   ],
-  pathPrefix: "/uxpages",
 }
