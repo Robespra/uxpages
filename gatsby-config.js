@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/uxpages",
+  // pathPrefix: "/uxpages",
   siteMetadata: {
     title: 'uxpages',
     description: 'uxpages ux design front end development',
