@@ -33,9 +33,11 @@ handleScroll = (event) => {
       <Helmet>
           <meta charSet="utf-8" />
           <title>uxpages.com</title>
-          <link rel="canonical" href="https://uxpages.com" />
+          <link rel="canonical" to="https://uxpages.com" />
         </Helmet>
-       
+
+
+
 <div id="header-mobile">
 <Link className="menu__item" to="/"><img src={require('../images/uxpages_logo.svg')} alt="test" /></Link>
            <Link className="menu__item" to="#recent_work"><span className="menu__item-name">case studies</span></Link>
@@ -56,8 +58,29 @@ handleScroll = (event) => {
             <Link className="menu__item" to="#side_project"><span className="menu__item-name">side project</span></Link>
     <Link className="menu__item" to="#contactForm"><span className="menu__item-name">contact</span></Link>
   </nav>
-  
+  <div className="container">
+  <input id="toggle" type="checkbox"/>
+  <label className="toggle-container" for="toggle">
+    <span className="button button-toggle"></span>
+  </label>
+  <nav className="nav">
+    <Link className="nav-item" to="">Dashboard</Link>
+    <Link className="nav-item" to="">History</Link>
+    <Link className="nav-item" to="">Statistics</Link>
+    <Link className="nav-item" to="">Settings</Link>
+  </nav>
+  <section className="dummy-content">
+    <div className="circle"></div>
+    <div className="text">
+        <span></span><span></span>
+    </div>
+    <div className="square-top"></div>
+    <div className="square-behind"></div>
+  </section>
 </div>
+
+</div>
+
     )
   }
 }
