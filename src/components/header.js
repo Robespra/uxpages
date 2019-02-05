@@ -63,20 +63,12 @@ handleScroll = (event) => {
   <label className="toggle-container" for="toggle">
     <span className="button button-toggle"></span>
   </label>
-  <nav className="nav">
-    <Link className="nav-item" to="">Dashboard</Link>
-    <Link className="nav-item" to="">History</Link>
-    <Link className="nav-item" to="">Statistics</Link>
-    <Link className="nav-item" to="">Settings</Link>
-  </nav>
-  <section className="dummy-content">
-    <div className="circle"></div>
-    <div className="text">
-        <span></span><span></span>
-    </div>
-    <div className="square-top"></div>
-    <div className="square-behind"></div>
-  </section>
+    <nav className="nav">
+      <Link className="nav-item" to="">Dashboard</Link>
+      <Link className="nav-item" to="">History</Link>
+      <Link className="nav-item" to="">Statistics</Link>
+      <Link className="nav-item" to="">Settings</Link>
+    </nav>
 </div>
 
 </div>
