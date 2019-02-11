@@ -11,7 +11,6 @@ const IndexPage = () => (
 <div>
 
 
-
 <Header/>
 
 <div className="row align-middle hero_block">
