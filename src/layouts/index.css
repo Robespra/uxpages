@@ -901,13 +901,16 @@ opacity: 0.8;
   display:block;
   position:fixed;
   z-index:9999;
-  font-size: 0.8em;
-  line-height: 2.3em;
+  font-size: 0.9em;
+  line-height: 3em;
   background:#fff;
-  height: 30px;
+  height: 40px;
   width:100%;
   bottom:0;
   text-align:center;
+  -webkit-box-shadow: 0px -4px 10px 0px rgba(252,252,252,1);
+  -moz-box-shadow: 0px -4px 10px 0px rgba(252,252,252,1);
+  box-shadow: 0px -4px 10px 0px rgba(252,252,252,1);
 }
 @media screen and (min-width:59.9375em){ 
   .bottom-navbar{display:none;}
@@ -917,4 +920,13 @@ opacity: 0.8;
   display:inline-block;
   list-style:none;
 
+}
+
+
+.bottom-navbar ul li a {
+  color:#2A2A2A;
+
+}
+.bottom-navbar a.menu__item {
+  margin: 0 1%;
 }

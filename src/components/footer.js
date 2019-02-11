@@ -52,10 +52,10 @@ const Footer = ({ siteTitle }) => (
 	
 		<div className="row align-center">
 		
-			<div className="column small-3"><Link className="" to="#recent_work">case studies</Link></div>
-			<div className="column small-3"><Link className="" to="#skills">capabilities</Link></div>
-			<div className="column small-3"><Link className="" to="#side_project">side project</Link></div>
-			<div className="column small-3"><Link className="" to="#contactForm">contact</Link></div>
+		<Link className="menu__item" to="#recent_work"><span className="menu__item-name">case studies</span></Link>
+		<Link className="menu__item" to="#skills"><span className="menu__item-name">capabilities</span></Link>
+		<Link className="menu__item" to="#side_project"><span className="menu__item-name">side project</span></Link>
+		<Link className="menu__item" to="#contactForm"><span className="menu__item-name">contact</span></Link>
 		</div>
 	</div>
 </div>
