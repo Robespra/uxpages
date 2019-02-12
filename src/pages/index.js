@@ -14,12 +14,13 @@ const IndexPage = () => (
 <Header/>
 
 <div className="row align-middle hero_block">
-	<div className="small-11 medium-6 columns hero_pctre">
+	<div className="small-12 medium-6 columns hero_pctre">
 		<img src={require('../images/z3.jpg')} alt="pages charly espra jeremy robertttt aqui está?"/>
 	</div>
-	<div className="small-11 medium-6 columns">
+	<div className="small-12 medium-6 columns">
 	    <h1 className="hidden-h1">uxpages ux pages</h1>
-	    <h2 className="hero_line">I design digital products from ux strategy to implementation</h2>
+	    <h2 className="hero_line">Hi there ! Good to have you here.</h2>
+        <h2 className="hero_line">I design digital products from UX strategy to implementation</h2>
     </div>
 </div>
 
@@ -239,19 +240,20 @@ const IndexPage = () => (
                 <h2 className="">currently learning...</h2>
                 <div className="skills_underline_orange"></div> 
                 <div className="show-for-medium medium-1 columns padding5_bottom"></div>
-                <div className="small-12 columns padding5_bottom ">
-    <img className="icon-svg svgicon-chef-hat" src={require('../images/svgicon-chef-hat.svg')} alt="uxpages research"/>
-    homemade khao neeo mamuang !
-    </div>
-    <div className="small-12 columns padding5_bottom">
-    <img className="icon-svg svgicon-figma" src={require('../images/svgicon-figma.svg')} alt="uxpages research"/>
-    figma
-    </div>
-    <div className="small-12 columns padding5_bottom">
-    <img className="icon-svg svgicon-virtual_reality" src={require('../images/svgicon-virtual_reality.svg')} alt="uxpages research"/>
-    VR
-    </div>
-  
+                <div className="row align-left">
+                    <div className="small-4 columns padding5_bottom ">
+                    <img className="icon-svg svgicon-chef-hat" src={require('../images/svgicon-chef-hat.svg')} alt="uxpages research"/>
+                      Thai cuisine!
+                    </div>
+                    <div className="small-4 columns padding5_bottom">
+                    <img className="icon-svg svgicon-figma" src={require('../images/svgicon-figma.svg')} alt="uxpages research"/>
+                      Figma
+                    </div>
+                    <div className="small-4 columns padding5_bottom">
+                    <img className="icon-svg svgicon-virtual_reality" src={require('../images/svgicon-virtual_reality.svg')} alt="uxpages research"/>
+                      VR
+                    </div>
+                </div>
         </div> 
 
         </div>
