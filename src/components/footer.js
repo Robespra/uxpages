@@ -16,7 +16,7 @@ const Footer = ({ siteTitle }) => (
 	                <p>Get in touch with me by filling the form below. You can also directly  <a href="https://calendly.com/uxpages/30min" target="_blank" rel="noopener" className="link_underlined"> schedule a call <span className="target_blank"></span></a></p>
 	</div>
 
-	<div className="small-11 medium-6 columns white">
+	<div className="small-11 medium-6 columns white border-radius-left-side">
 		<form name="contactForm" id="contactForm" action="https://formspree.io/hola@uxpages.com" method="post" className="topBefore padding5_top">
 			<label for="email"><span className="label-form">Leave your e-mail...</span></label>
 			<input id="email" type="email" name="Email" required/>
@@ -31,7 +31,7 @@ const Footer = ({ siteTitle }) => (
        
 	</div>
 
-<div className="small-11 medium-5 columns orange">
+<div className="small-11 medium-5 columns orange border-radius-right-side">
             <Link to="mailto:&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;" className="email_footer">&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;</Link>
 <p></p>
 
