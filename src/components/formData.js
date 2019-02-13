@@ -17,7 +17,7 @@ window.onload=function(){
     return JSON.stringify(dataObj);
   };
 
-  const postToFormspree = formData => fetch(`https://formspree.io/hola@uxpages.com`, {
+  const postToFormspree = formData => fetch(`https://formsubmit.io/send/hola@uxpages.com`, {
     method: 'POST',
     body: formDataToJson(formData),
     headers: {
