@@ -10,7 +10,6 @@ export default class HTML extends React.Component {
         <link rel="icon" type="image/png" href="https://robespra.github.io/uxpages/favicon-32x32.png" sizes="32x32"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="referrer" content="origin" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
