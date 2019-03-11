@@ -17,11 +17,11 @@ const Footer = ({ siteTitle }) => (
 	</div>
 
 	<div className="small-11 medium-6 columns white border-radius-left-side">
-		<form name="contactForm" id="contactForm" method="post" className="topBefore padding5_top">
+		<form action="https://formspree.io/xwnnlkqm" name="contactForm" id="contactForm" method="post" className="topBefore padding5_top" >
 			<label for="email"><span className="label-form">Leave your e-mail...</span></label>
-			<input id="email" type="email" name="Email" required/>
+			<input name="_replyto" id="email" type="email" name="Email" required/>
 			 <label className="label-form padding5_top" for="message"><span>Write your message...</span></label>
-			<textarea id="message" className="" name="Message" cols="1" rows="6"></textarea>
+			<textarea id="message" className="" name="message" cols="1" rows="6"></textarea>
 			
 			<input id='send-button' className="submitBtn" type="submit" value="Send"/>
 		</form>
