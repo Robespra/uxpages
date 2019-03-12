@@ -4,7 +4,6 @@ if (typeof window !== `undefined`) {
 
 window.onload=function(){
   const sendButton = document.getElementById('send-button')
-
   const formDataToJson = formData => {
     const entries = formData.entries();
     const dataObj = Array.from(entries).reduce( (data, [key, value]) => {
