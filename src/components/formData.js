@@ -16,7 +16,7 @@ window.onload=function(){
     return JSON.stringify(dataObj);
   };
 
-  const postToFormspree = formData => fetch(`https://formspree.io/xwnnlkqm`, {
+  const postToFormspree = formData => fetch('https://formspree.io/xwnnlkqm', {
     method: 'POST',
     body: formDataToJson(formData),
     headers: {

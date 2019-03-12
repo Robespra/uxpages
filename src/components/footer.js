@@ -19,7 +19,7 @@ const Footer = ({ siteTitle }) => (
 	<div className="small-11 medium-6 columns white border-radius-left-side">
 		<form action="https://formspree.io/xwnnlkqm" name="contactForm" id="contactForm" method="post" className="topBefore padding5_top" >
 			<label for="email"><span className="label-form">Leave your e-mail...</span></label>
-			<input type="text" name="_gotcha" style="display:none" />
+			<input className="_gotcha" type="text" name="_gotcha"/>
 			<input name="_replyto" id="email" type="email" name="Email" required/>
 			 <label className="label-form padding5_top" for="message"><span>Write your message...</span></label>
 			<textarea id="message" className="" name="message" cols="1" rows="6"></textarea>
