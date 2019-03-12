@@ -3,9 +3,9 @@
   "name": "gatsby-starter-default",
   "description": null,
   "icons": {
-    "60": "//uxpages/icons-da0aea4f082fec383f15767125ce789b/firefox_app_60x60.png",
-    "128": "//uxpages/icons-da0aea4f082fec383f15767125ce789b/firefox_app_128x128.png",
-    "512": "//uxpages/icons-da0aea4f082fec383f15767125ce789b/firefox_app_512x512.png"
+    "60": "/icons-da0aea4f082fec383f15767125ce789b/firefox_app_60x60.png",
+    "128": "/icons-da0aea4f082fec383f15767125ce789b/firefox_app_128x128.png",
+    "512": "/icons-da0aea4f082fec383f15767125ce789b/firefox_app_512x512.png"
   },
   "developer": {
     "name": null,
