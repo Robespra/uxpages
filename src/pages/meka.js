@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import { Link } from 'gatsby'
 import ProtoVidsmall from '../images/meka/prototype_smaller.mp4'
 import ProtoVid from '../images/meka/prototype.mp4'
@@ -11,6 +12,7 @@ let pathPrefix = `/`
 
 
 const Meka = () => (
+    <PageTransition>
 <div>
 <Header/>
 <div className="meka_bg">
@@ -398,7 +400,7 @@ Overall product strategy including long-term goals and KPI, Product roadmap incl
 
 </div>
 
-
+</PageTransition>
 
 
 

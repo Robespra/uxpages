@@ -1,10 +1,12 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { Link } from "gatsby"
 let pathPrefix = `/`
 
 const Convy = () => (
+    <PageTransition>
 <div>
 <Header/>
 <div className="convy_bg">
@@ -235,7 +237,7 @@ const Convy = () => (
 </div>
 <Footer/>
 </div>
-
+</PageTransition>
 )
 
 

@@ -28,7 +28,7 @@ window.onload=function(){
 
     e.preventDefault();
 
-    sendButton.value = 'Sending..';
+    sendButton.value = 'Sending...';
 
     const formData = new FormData(this);
 

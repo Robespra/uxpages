@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import { Link } from "gatsby"
 import InteracVid from '../images/meka/interaction_meka.mp4'
 import Header from '../components/header'
@@ -7,7 +8,20 @@ let pathPrefix = `/`
 
 
 
-const IndexPage = () => (
+export default () => (
+    <PageTransition defaultStyle={{
+        transition: 'left 500ms cubic-bezier(0.47, 0, 0.75, 0.72)',
+        left: '100%',
+        position: 'absolute',
+        width: '100%',
+      }}
+      transitionStyles={{
+        entering: { left: '0%' },
+        entered: { left: '0%' },
+        exiting: { left: '100%' },
+      }}
+      transitionTime={500}
+    >
 <div>
 
 
@@ -19,7 +33,7 @@ const IndexPage = () => (
 	</div>
 	<div className="small-12 medium-6 columns">
 	    <h1 className="hidden-h1">uxpages ux pages</h1>
-	    <h2 className="hero_line">Hi there ! Good to have you here.</h2>
+	    <h2 className="hero_line">Hi there ! Good to have you here 👋</h2>
         <h2 className="hero_line">I design digital products from UX strategy to implementation</h2>
     </div>
 </div>
@@ -343,6 +357,6 @@ const IndexPage = () => (
 
 
 </div>
-
+</PageTransition>
 ) 
-export default IndexPage
+

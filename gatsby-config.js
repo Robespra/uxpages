@@ -1,14 +1,15 @@
 module.exports = {
   // pathPrefix: "/uxpages",
   siteMetadata: {
-    title: 'uxpages',
-    description: 'uxpages ux design front end development',
-    siteUrl: 'https://uxpages.com/',
+    title: 'biscay_plain',
+    description: 'biscay plaij',
+    siteUrl: 'https://biscay_plain.com/',
   },
   plugins: [
     // Shortcut for adding plugins without options.
     `gatsby-plugin-postcss`,
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-page-transitions',
     {
     // Standard plugin with options example
     resolve: 'gatsby-plugin-babel',

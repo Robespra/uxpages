@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import Header from '../components/header'
 import Footer from '../components/footer'
 let pathPrefix = `/`
@@ -7,6 +8,7 @@ let pathPrefix = `/`
 
 
 const Sharemos = () => (
+    <PageTransition>
 <div>
 <Header/>
 <div className="sharemos_bg">
@@ -158,7 +160,7 @@ We planned internationalization of the the product in the earliest phase of the 
 
 
 
-
+</PageTransition>
 
 
 )

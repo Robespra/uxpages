@@ -1,10 +1,12 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { Link } from "gatsby"
 let pathPrefix = `/`
 
 const Kelisto = () => (
+    <PageTransition>
 <div>
 <Header/>
 <div className="kelisto_bg">
@@ -297,7 +299,7 @@ usability benchmarking, online assessments, surveys, A/B testing, usability chec
 </div>
 
 
-
+</PageTransition>
 
 
 
