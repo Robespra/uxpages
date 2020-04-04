@@ -9,19 +9,7 @@ let pathPrefix = `/`
 
 
 export default () => (
-    <PageTransition defaultStyle={{
-        transition: 'left 500ms cubic-bezier(0.47, 0, 0.75, 0.72)',
-        left: '100%',
-        position: 'absolute',
-        width: '100%',
-      }}
-      transitionStyles={{
-        entering: { left: '0%' },
-        entered: { left: '0%' },
-        exiting: { left: '100%' },
-      }}
-      transitionTime={500}
-    >
+    <PageTransition>
 <div>
 
 
@@ -165,14 +153,14 @@ export default () => (
 
 <div id="skills" className="row align-center padding5_top">
     <div className="small-11 columns">
-        <h2>how can I help you ?</h2>
+        <h2>How can I help you ?</h2>
         <h3>I started designing <span className="skills_highlight">user interface </span>in 1999 and have progressively expanded my skillset to <span className="skills_highlight">strategic product-oriented UX design.</span> Product design is not an art guided solely by creativity and intuition : I do believe in <span className="skills_highlight">lean customer development and metrics.</span>
         </h3>
         <div className="row align-left">
         <div className="small-5 columns border-skills"></div>
         <div className="small-5 columns"></div>
         <div className="small-11 columns">
-        <h2>areas of expertise</h2>
+        <h2>Areas of expertise</h2>
         </div>
         </div>
         <div className="row align-left padding5_both">
@@ -180,50 +168,50 @@ export default () => (
         <img className="icon-svg svgicon-assessment" src={require('../images/svgicon-assessment.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns">
-                <h4>research</h4>
+                <h4>Research</h4>
                 <div className="skills_underline_orange"></div>
                 <ul className="no_bullet">
-                <li className="checked">research strategy</li>
-                <li className="checked">usability studies</li>
-                <li className="checked">heuristic review</li>
-                <li className="checked">personas</li>
-                <li className="checked">design research/strategy</li>
-                <li className="checked">benchmarking</li>
-                <li className="checked">behaviour design</li>
-                 <li className="checked">quantitative UX research</li>
+                <li className="checked">Research strategy</li>
+                <li className="checked">Usability studies</li>
+                <li className="checked">Heuristic review</li>
+                <li className="checked">Personas</li>
+                <li className="checked">Design research/strategy</li>
+                <li className="checked">Benchmarking</li>
+                <li className="checked">Behaviour design</li>
+                 <li className="checked">Quantitative UX research</li>
                 </ul>
             </div>
             <div className="small-11 medium-2 large-1 columns">
             <img className="icon-svg svgicon-vision" src={require('../images/svgicon-vision.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns">
-                <h4>ideation</h4>
+                <h4>Ideation</h4>
                 <div className="skills_underline_orange"></div>
                 <ul className="no_bullet">
-                <li className="checked">information architecture</li>
-                <li className="checked">storytelling / user journey</li>
-                <li className="checked">wireframes</li>
-                <li className="checked">prototyping</li>
-                <li className="checked">art direction / branding</li>
-                <li className="checked">system design</li>
-                <li className="checked">holistic & multidisciplinary approach</li>
-                <li className="checked">tools: sketch, marvel, floid (framer), after effect (IxD)</li>
+                <li className="checked">Information architecture</li>
+                <li className="checked">Storytelling / user journey</li>
+                <li className="checked">Wireframes</li>
+                <li className="checked">Prototyping</li>
+                <li className="checked">Art direction / branding</li>
+                <li className="checked">System design</li>
+                <li className="checked">Holistic & multidisciplinary approach</li>
+                <li className="checked">Tools: Sketch, Figma, Xbuilder, HTML, CSS & JS, Proto Pie (IxD)</li>
                 </ul>
             </div>
             <div className="small-11 medium-2 large-1 columns padding5_top">
             <img className="icon-svg svgicon-business_obj" src={require('../images/svgicon-business_obj.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns padding5_top">
-                <h4>design for business</h4>
+                <h4>Design for business</h4>
                 <div className="skills_underline_orange"></div>
                 <ul className="no_bullet">
-                <li className="checked">conversion of kpis into design strategy</li>
-                <li className="checked">behaviour design</li>
-                <li className="checked">conversion optimization design</li>
-                <li className="checked twolines">product roadmap strategy / resource allocation</li>
+                <li className="checked">Conversion of kpis into design strategy</li>
+                <li className="checked">Behaviour design</li>
+                <li className="checked">Conversion optimization design</li>
+                <li className="checked twolines">Product roadmap strategy / resource allocation</li>
                 <li className="checked">QA & iteration</li>
-                <li className="checked twolines">cross-cultural skills (I speak spanish, english and french)</li>
-                <li className="checked">cross-functional skills</li>
+                <li className="checked twolines">Cross-cultural skills (I speak spanish, english and french)</li>
+                <li className="checked">Cross-functional skills</li>
                 <li className="checked twolines">Design complexity management and facilitation</li>
 
                 
@@ -233,25 +221,25 @@ export default () => (
             <img className="icon-svg svgicon-execution" src={require('../images/svgicon-execution.svg')} alt="uxpages research"/>
             </div>
             <div className="small-11 medium-9 large-5 columns padding5_top">
-                <h4>implementation</h4>
+                <h4>Implementation</h4>
                 <div className="skills_underline_orange"></div>
                 <ul className="no_bullet">
-                <li className="checked">design system for various UI platforms</li>
-                <li className="checked">streamlined design handoff to dev</li>
-                <li className="checked">visual design & illustration</li>
-                <li className="checked ">svg vectors drawing / iconography</li>
-                <li className="checked">front integration (ror, angular, react, php)</li>
-                <li className="checked">sass/less css preprocessors</li>
-                <li className="checked">javascript (jquery, angular2, react)</li>
-                <li className="checked">css frameworks</li>
-                <li className="checked twolines">collaborative work in cross-departmental teams</li>
-                <li className="checked">project management (agile dev)</li>
+                <li className="checked">Design system for various UI platforms</li>
+                <li className="checked">Streamlined design handoff to dev</li>
+                <li className="checked">Visual design & illustration</li>
+                <li className="checked ">Svg vectors drawing / iconography</li>
+                <li className="checked">Front integration (ror, angular, react, php)</li>
+                <li className="checked">Sass/less css preprocessors</li>
+                <li className="checked">Javascript (jquery, angular2, react)</li>
+                <li className="checked">Css frameworks</li>
+                <li className="checked twolines">Collaborative work in cross-departmental teams</li>
+                <li className="checked">Project management (agile dev)</li>
                 <li className="checked">GIT</li>
                 
                 </ul>
             </div>
             <div className="small-11 medium-11 columns padding10_top"> 
-                <h2 className="">currently learning...</h2>
+                <h2 className="">Currently learning...</h2>
                 <div className="skills_underline_orange"></div> 
                 <div className="show-for-medium medium-1 columns padding5_bottom"></div>
                 <div className="row align-left">
@@ -283,7 +271,7 @@ export default () => (
 
 <div className="row align-center padding5_top">
 	<div className="small-11 medium-11 columns">
-		<h2 id="side_project">side projects</h2>
+		<h2 id="side_project">Side projects</h2>
 		<div className="skills_underline_orange"></div>
 		<div className="small-11 medium-11 columns">
 			<div className="alpe_rouge_container">
@@ -314,27 +302,27 @@ export default () => (
 		<div className="row">
 			<div className="small-11 medium-4 columns">
 				<small>LATEST PUBLICATIONS</small>
-				<h2>journal</h2>
+				<h2>Journal</h2>
 				<div className="skills_underline_orange"></div>
 			</div>
 			<div className="small-11 medium-8 columns">
 				<div className="callout_publications">
-					<small> 23/02/2019</small>
+					<small> 23/02/2020</small>
 					<a href="http://convy.io/read/articles/good_emails" target="_blank" rel="noopener" onclick="track('Click-see-article-solitude','Click-see-article-solitude')"><h3>5 Tips To Make Emails That Convert<span className="target_blank"></span></h3></a>
 					<p>Email design is hard. In this article we will review 5 rules that unsure email good conversion.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 03/01/2019</small>
+					<small> 03/01/2020</small>
 					<a href="http://www.mekacreative.io/blog/articles/the_five_paradoxes_of_creativity" target="_blank" rel="noopener" onclick="track('Click-see-article-five','Click-see-article-five')"><h3>The five paradoxes of creativity <span className="target_blank"></span></h3></a>
 					<p>Understanding creativity means discerning the different paradoxes that compose it.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 23/12/2018</small>
+					<small> 23/12/2019</small>
 					<a href="http://convy.io/read/articles/attractive_digital" target="_blank" rel="noopener" onclick="track('Click-see-article-five','Click-see-article-five')"><h3>5 Pro Tips To Make Your Product More Attractive<span className="target_blank"></span></h3></a>
 					<p>Reaction to digital product appearances are fast, unconscious and will affect the way users engage with it. In this article we will share ways to ensure your product provides a great first impression.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 11/12/2018</small>
+					<small> 11/12/2019</small>
 					<a href="http://www.mekacreative.io/blog/articles/empathy_and_creativity" target="_blank" rel="noopener" onclick="track('Click-see-article-empathy','Click-see-article-empathy')"><h3>Empathy and creativity<span className="target_blank"></span></h3></a>
 					<p>This phenomenon is the basis of human links and artistic communication.</p>
 				</div>
