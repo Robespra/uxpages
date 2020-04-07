@@ -1,9 +1,9 @@
 module.exports = {
   // pathPrefix: "/uxpages",
   siteMetadata: {
-    title: 'biscay_plain',
-    description: 'biscay plaij',
-    siteUrl: 'https://biscay_plain.com/',
+    title: 'uxpages',
+    description: 'uxpages',
+    siteUrl: 'https://uxpages.com/',
   },
   plugins: [
     // Shortcut for adding plugins without options.
