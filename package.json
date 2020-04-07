@@ -6,7 +6,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "gatsby": "^2.19.10",
-    "gatsby-cli": "^2.8.28",
+    "gatsby-cli": "^2.4.15",
     "gatsby-link": "^2.0.15",
     "gatsby-plugin-babel": "^1.0.0",
     "gatsby-plugin-favicon": "^3.1.5",
@@ -37,7 +37,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
