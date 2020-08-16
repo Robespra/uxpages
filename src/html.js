@@ -1,19 +1,26 @@
 import React from "react"
 import PropTypes from "prop-types"
-import icon32 from '../static/favicon-32x32.png'
+import faviconico from './images/favicon/favicon.ico';
+import faviconappletouch from './images/favicon/apple-touch-icon.png';
+import faviconmanifest from './images/favicon/manifest.json';
+import faviconmask from './images/favicon/mask-icon.svg';
+import faviconsvg from './images/favicon/favicon.svg';
 
 export default class HTML extends React.Component {
   render() {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-        <link rel="icon" type="image/png" href="https://robespra.github.io/uxpages/favicon-32x32.png" sizes="32x32"/>
+          <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+          <meta httpEquiv="Content-Language" content="en" />
+          <meta name="theme-color" content="#ffffff"/>
+          <link rel="icon" href={faviconsvg}/>
+          <link rel="mask-icon" href={faviconmask} color="#fda085"/>
+          <link rel="apple-touch-icon" sizes="180x180" href={faviconappletouch}/>
+          <link rel="manifest" href={faviconmanifest}/>
+          <link rel="icon" href={faviconico} />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>

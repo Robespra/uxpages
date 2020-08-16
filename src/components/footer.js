@@ -10,7 +10,7 @@ const Footer = ({ siteTitle }) => (
     
 <div className="row align-center">
 	<div className="small-11 columns padding10_top padding5_bottom">
-	  <h2 className="">That's all, folks ! let's get in touch. </h2>
+	  <h2 className="">Get in touch. </h2>
 	                 <div className="skills_underline_orange"></div>
 	                <p className="padding5_top">Let's create great experiences and make your project generate more revenue. I am currently NOT available for projects in Europe.</p>
 	                <p>Get in touch with me by filling the form below. You can also directly  <a href="https://calendly.com/uxpages/30min" target="_blank" rel="noopener" className="link_underlined"> schedule a call <span className="target_blank"></span></a></p>

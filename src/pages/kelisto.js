@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 import PageTransition from 'gatsby-plugin-page-transitions'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -8,18 +9,24 @@ let pathPrefix = `/`
 const Kelisto = () => (
     <PageTransition>
 <div>
+<Helmet>
+      <meta charSet="utf-8" />
+      <title>uxpages - Kelisto Case Study, Designing for a data heavy application</title>
+      <link rel="canonical" href="https://uxpages.com/kelisto" />
+    </Helmet>
 <Header/>
 <div className="kelisto_bg">
 <div className="hero_project_img">
     <img className="kelisto_img" src={require('../images/kelisto/case_kelisto_1.png')} alt="kelisto hero case study"/>
     </div>
-<div className="hero_project_title_block">
 
-        <h1 className="project-title">kelisto.es</h1>
-        <div className="skills_underline_orange"></div>
-    </div>
     
   <div className="row align-left hero_dtls">
+  <div className="hero_project_title_block">
+
+<h1 className="project-title">kelisto.es</h1>
+<div className="skills_underline_orange"></div>
+</div>
         <div className="small-11 medium-8 columns">
         <div className="row align-left padding5_bottom">
             <div className="small-11 medium-6 columns">
@@ -52,6 +59,7 @@ const Kelisto = () => (
 </div>
 
 <div className="section">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3F3F3" fill-opacity="1" d="M0,96L80,117.3C160,139,320,181,480,181.3C640,181,800,139,960,106.7C1120,75,1280,53,1360,42.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 <div className="row align-center padding5_top">
 
     <div className="small-11 medium-9 columns padding5_top">

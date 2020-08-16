@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "gatsby"
-import { Helmet } from "react-helmet"
 
 
 
@@ -31,13 +30,6 @@ handleScroll = (event) => {
       
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       
-      <Helmet>
-          <meta charSet="utf-8" />
-          <title>uxpages.com</title>
-          <link rel="canonical" to="https://uxpages.com" />
-        </Helmet>
-
-
 
 
 
@@ -48,7 +40,7 @@ handleScroll = (event) => {
         
         <nav className="sidebar-nav">
           <Link className="menu__item" to="/"><img src={require('../images/uxpages_logo.svg')} alt="test" /></Link>
-                <Link className="menu__item" to="#recent_work"><span className="menu__item-name">case studies</span></Link>
+                <Link className="menu__item" to="/case_studies/"><span className="menu__item-name">case studies</span></Link>
                 <Link className="menu__item" to="#skills"><span className="menu__item-name">capabilities</span></Link>
                 <Link className="menu__item" to="#side_project"><span className="menu__item-name">side project</span></Link>
                 <Link className="menu__item" to="#contactForm"><span className="menu__item-name">contact</span></Link>
