@@ -30,37 +30,31 @@ const Convy = () => (
     {/* <img src={require('../images/convy/intro_top_convy.jpg')} alt="convy case study hero image"/> */}
   </div>
     
-   
+      
   <div className="row align-left hero_dtls">
-  <div className="hero_project_title_block">
-        <h1 className="project-title">convy.io</h1>
-        <div className="skills_underline_orange"></div>
-    </div>
         <div className="small-11 medium-8 columns">
         <div className="row align-left padding5_bottom">
-            <div className="small-11 medium-6 columns">
-                <h3 className="">Clients</h3>
-                <h2 className="project-title">Telco, Insurance, Finance</h2>
-            </div>
-            <div className="small-11 medium-6 columns">
-                <h3 className="">Year</h3>
-                <h2 className="project-title">2018/2019</h2>
-            </div>
+        <div className="hero_project_title_block">
+            <h1 className="">Convy.io Growth Design</h1>
+            <div className="skills_underline_orange"></div>
+        </div>
+        <div className="small-11 medium-6 columns">
+            <h3 className="">Client</h3>
+            <p className="">E-commerce, Telco, Insurance, Finance</p>
+        </div>
+        <div className="small-11 medium-6 columns">
+            <h3 className="">Years</h3>
+            <p className="">2017 - now</p>
+        </div>
         </div>
         <div className="row align-left padding5_bottom">
             <div className="small-11 medium-10 columns">
                 <h3 className="">Case</h3>
-                <h2 className="project-title">Conversion Rate Optimization</h2>
+                <p className="">Conversion Rate Optimization</p>
 
             </div>
         </div>
-        <div className="row align-left padding5_bottom">
-            <div className="small-11 medium-10 columns">
-                <h3 className="">Scope</h3>
-                <h2 className="project-title">CRO, Analytics, UI/UX improvements, Front-end Dev</h2>
 
-            </div>
-        </div>
         </div>
     </div>
 </div>

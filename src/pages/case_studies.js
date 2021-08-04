@@ -25,17 +25,17 @@ export default () => (
 	<div className="small-12 columns">
     <div className="row align-center">
     <div className="small-11 columns">
-    <h2 className="hero_cases ">Case studies and projects 🚀</h2>
-        <h3 className="padding5_bottom">Since 2010 I have helped startups and leaders design, build, ship or optimize digital products and services.</h3>
-        <h3 className="padding5_bottom">Lately I have been mainly focusing on strategic<span className="skills_highlight"> product design </span> and <span className="skills_highlight">UX design consultancy.</span>
-        </h3>
-        <h3 className="padding10_bottom">Product design is not an art guided solely by creativity and intuition : I do believe in <span className="skills_highlight">lean customer development and metrics.</span></h3>
-        
+    <h2 className="hero_cases">Case studies and projects 🚀</h2>
+        <h4 className="padding3_bottom">Since 2010 I have helped startups and leaders design, build, ship or optimize digital products and services.</h4>
+        <h4 className="padding3_bottom">Lately I have been mainly focusing on strategic<span className="skills_highlight"> product design </span> and <span className="skills_highlight">UX design consultancy.</span>
+        </h4>
+        <h4 className="padding5_bottom">Product design is not an art guided solely by creativity and intuition : I do believe in <span className="skills_highlight">lean customer development and metrics.</span></h4>
+
     </div>
         <div className="small-5 columns border-skills"></div>
         <div className="small-5 columns"></div>
         <div className="small-11 columns">
-    
+
         </div>
         </div>
 	    <h1 className="hidden-h1">uxpages ux pages case studies</h1>
@@ -57,24 +57,24 @@ export default () => (
             <p>Growth design consulting</p>
             <p>Contracts</p>
             <p>2017 - Now</p>
-            <p>You may be interested in :</p>
+            <p className="p_case_categories">You may be interested in : </p>
             <ul className="no_bullet">
-                <li className="checked">Growth Design</li>
-                <li className="checked">Product Design</li>
-                <li className="checked">Interface Design</li>
+                <li className="checked_cases category">Growth Design</li>
+                <li className="checked_cases category">Product Design</li>
+                <li className="checked_cases category">Interface Design</li>
             </ul>
             </div>
             <div className="small-11 medium-8 columns prjct-img_block_pstn-relative_opposite">
                 <div className="prjct-img_block_opposite negative_margin_figures">
                 <img src={require('../images/convy/numbers_convy.svg')} alt="convy figures case study"/>
                     <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_convy.jpg')} alt="convy"/>
-                    
-                    <Link className="project__item-btn gradient_effect" to="/convy/" onclick="track('Click-see-project-convy','Click-see-project-convy')">Read case study</Link>  
+
+                    <Link className="project__item-btn gradient_effect" to="/convy/" onclick="track('Click-see-project-convy','Click-see-project-convy')">Read case study</Link>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div className="small-11 columns last-prjct padding5_both">
         <div className="row">
             <div className="small-11 columns dtls-text">
@@ -85,24 +85,24 @@ export default () => (
                         <p>HR enterprise app for +50 countries</p>
                         <p>Contract</p>
                         <p>2018 - 2020</p>
-                        <p>You may be interested in : </p>
+                        <p className="p_case_categories">You may be interested in : </p>
                     <ul className="no_bullet">
-                            <li className="checked">Wide and complex scope</li>
-                            <li className="checked">Localization</li>
-                            <li className="checked">Interface Design</li>
-                            <li className="checked">Product Design</li>
+                            <li className="checked_cases category">Wide and complex scope</li>
+                            <li className="checked_cases category">Localization</li>
+                            <li className="checked_cases category">Interface Design</li>
+                            <li className="checked_cases category">Product Design</li>
                             </ul>
                 </div>
                     <div className="small-11 medium-8 columns prjct-img_block_pstn-relative_opposite">
                     <div className="prjct-img_block_opposite">
                         <div className="prjct-img_block_inner_pstn-relative_opposite">
-                       
+
                         <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_avantiq.jpg')} alt="avantiq"/>
-                            <Link className="project__item-btn gradient_effect" to="/avantiq/" onclick="track('Click-see-project-avantiq','Click-see-project-avantiq')">Read case study</Link>  
+                            <Link className="project__item-btn gradient_effect" to="/avantiq/" onclick="track('Click-see-project-avantiq','Click-see-project-avantiq')">Read case study</Link>
                         </div>
                     </div>
                 </div>
-        </div>        
+        </div>
     </div>
 
     <div className="small-11 columns last-prjct padding5_both">
@@ -115,12 +115,12 @@ export default () => (
                         <p>Creative HR selection dashboard and chatbot</p>
                         <p>Contract</p>
                         <p>(in progress)</p>
-                        <p>You may be interested in : </p>
+                        <p className="p_case_categories">You may be interested in : </p>
                     <ul className="no_bullet">
-                            <li className="checked">Interface Design</li>
-                            <li className="checked">Conversational design</li>
-                            <li className="checked">Product Design</li>
-                            <li className="checked">Gamification</li>
+                            <li className="checked_cases category">Interface Design</li>
+                            <li className="checked_cases category">Conversational design</li>
+                            <li className="checked_cases category">Product Design</li>
+                            <li className="checked_cases category">Gamification</li>
                             </ul>
                 </div>
                     <div className="small-11 medium-8 columns prjct-img_block_pstn-relative_opposite">
@@ -130,11 +130,11 @@ export default () => (
                         <video className="prjct-large-bg lazy" width="100%" height="auto" loop autoPlay muted>
                             <source src={InteracVid} type="video/mp4"/>
                         </video>
-                            <Link className="project__item-btn gradient_effect" to="/meka/" onclick="track('Click-see-project-meka','Click-see-project-meka')">Read case study</Link>  
+                            <Link className="project__item-btn gradient_effect" to="/meka/" onclick="track('Click-see-project-meka','Click-see-project-meka')">Read case study</Link>
                         </div>
                     </div>
                 </div>
-        </div>        
+        </div>
     </div>
 
     <div className="small-11 columns last-prjct padding5_both">
@@ -147,13 +147,13 @@ export default () => (
                     <p>Finance, Insurance, Comms & Energy Price comparators. Ecommerce & content.</p>
                     <p>Full-time</p>
                     <p>2013 - 2015</p>
-                    <p>You may be interested in : </p>
+                    <p className="p_case_categories">You may be interested in : </p>
                     <ul className="no_bullet">
-                            <li className="checked">Visual design</li>
-                            <li className="checked">UI/UX</li>
-                            <li className="checked">Front-end development</li>
-                            <li className="checked twolines">Stakeholders / dev team processes</li>
-                            <li className="checked twolines">Conversion-optimization design</li>
+                            <li className="checked_cases category">Visual design</li>
+                            <li className="checked_cases category">UI/UX</li>
+                            <li className="checked_cases category">Front-end development</li>
+                            <li className="checked_cases category twolines">Stakeholders / dev team processes</li>
+                            <li className="checked_cases category twolines">Conversion-optimization design</li>
                             </ul>
                 </div>
                 <div className="small-11 medium-8 columns prjct-img_block_pstn-relative_opposite">
@@ -161,13 +161,13 @@ export default () => (
                         <div className="prjct-img_block_inner_pstn-relative_opposite negative_margin_figures">
                         <img src={require('../images/kelisto/numbers_kelisto.svg')} alt="kelisto hero case study"/>
                             <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_kelisto.jpg')} alt="kelisto hero case study"/>
-                           
+
                             <div className="prjct-img_block_inner_pstn-absolute_opposite">
-                            
-                
+
+
                             </div>
-                            
-                            <Link className="project__item-btn gradient_effect" to="/kelisto/" onclick="track('Click-see-project-kelisto','Click-see-project-kelisto')">Read case study</Link>  
+
+                            <Link className="project__item-btn gradient_effect" to="/kelisto/" onclick="track('Click-see-project-kelisto','Click-see-project-kelisto')">Read case study</Link>
                         </div>
                     </div>
             </div>
@@ -183,13 +183,13 @@ export default () => (
                 <div className="dtls-text-p">
                 <p>Two-side marketplace</p>
                 <p>2015 - 2016</p>
-                    <p>You may be interested in :</p> 
+                <p className="p_case_categories">You may be interested in : </p>
                     <ul className="no_bullet">
-                        <li className="checked">MVP</li>
-                        <li className="checked">Branding/visual design</li>
-                        <li className="checked">UX UI</li>
-                        <li className="checked">Front-end code</li>
-                        <li className="checked">Android App design</li>
+                        <li className="checked_cases category">MVP</li>
+                        <li className="checked_cases category">Branding/visual design</li>
+                        <li className="checked_cases category">UX UI</li>
+                        <li className="checked_cases category">Front-end code</li>
+                        <li className="checked_cases category">Android App design</li>
                         </ul>
                 </div>
             </div>
@@ -198,9 +198,9 @@ export default () => (
                     <div className="prjct-img_block_inner_pstn-relative_opposite">
                         <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_sharemos.jpg')} alt="kelisto hero case study"/>
                         <div className="prjct-img_block_inner_pstn-absolute_opposite">
-                            
+
                         </div>
-                        <Link className="project__item-btn gradient_effect" to="/sharemos/" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')">Read case study</Link> 
+                        <Link className="project__item-btn gradient_effect" to="/sharemos/" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')">Read case study</Link>
                     </div>
                 </div>
             </div>
@@ -216,13 +216,13 @@ export default () => (
                 <div className="dtls-text-p">
                 <p>Full-time & Contracts</p>
                 <p>2012 - 2019</p>
-                    <p>You may be interested in :</p> 
+                    <p>You may be interested in :</p>
                     <ul className="no_bullet">
-                        <li className="checked">MVP</li>
-                        <li className="checked">Branding/visual design</li>
-                        <li className="checked">UX UI</li>
-                        <li className="checked">Front-end code</li>
-                        <li className="checked">Android App design</li>
+                        <li className="checked_cases category">MVP</li>
+                        <li className="checked_cases category">Branding/visual design</li>
+                        <li className="checked_cases category">UX UI</li>
+                        <li className="checked_cases category">Front-end code</li>
+                        <li className="checked_cases category">Android App design</li>
                         </ul>
                 </div>
             </div>
@@ -231,9 +231,9 @@ export default () => (
                     <div className="prjct-img_block_inner_pstn-relative_opposite">
                         <img className="prjct-large-bg lazy" src={require('../images/prjctimg3_sharemos.jpg')} alt="kelisto hero case study"/>
                         <div className="prjct-img_block_inner_pstn-absolute_opposite">
-                            
+
                         </div>
-                        <Link className="project__item-btn gradient_effect" to="/misc/" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')">Read case study</Link> 
+                        <Link className="project__item-btn gradient_effect" to="/misc/" onclick="track('Click-see-project-sharemos','Click-see-project-sharemos')">Read case study</Link>
                     </div>
                 </div>
             </div>
@@ -251,5 +251,5 @@ export default () => (
 
 </div>
 </PageTransition>
-) 
+)
 

@@ -38,16 +38,17 @@ export default () => (
             <div className="small-12 columns dtls-text">
             <h2>How can I help you ?</h2>
             <div className="skills_underline_orange"></div>
-        <h3>I have been designing <span className="skills_highlight">digital products </span>from discovery to delivery and <span className="skills_highlight">providing guidance to organizations</span> for more than <span className="skills_highlight">10 years.</span> 
-        </h3>
-               
-        
+            <h4>I have been designing <span className="skills_highlight">digital products </span>from discovery to delivery and <span className="skills_highlight">providing guidance to organizations</span> for more than <span className="skills_highlight">10 years.</span>
+            </h4>
+
+
+
             </div>
-            
+
             <div className="index_case_study_btn">
 
-                    <Link className="project__item-btn gradient_effect" to="/case_studies/" onclick="track('Click-see-project-convy','Click-see-project-convy')">See all case studies</Link>  
-     
+                    <Link className="project__item-btn gradient_effect" to="/case_studies/" onclick="track('Click-see-project-convy','Click-see-project-convy')">See all case studies</Link>
+
             </div>
         </div>
     </div>
@@ -62,112 +63,144 @@ export default () => (
         <div className="small-5 columns"></div>
         <div className="small-11 columns">
         <h2 className="padding5_top">Areas of expertise</h2>
+        <div className="skills_underline_orange"></div>
+        <h4 className="">I can help you with <span className="skills_highlight">front integration</span>, design <span className="skills_highlight">prototypes</span>, improve your <span className="skills_highlight">conversion rates</span> or set up a cohesive<span className="skills_highlight"> design system</span>.
+            </h4>
         </div>
         </div>
-        <div className="row align-left padding5_both">
-        <div className="small-11 medium-2 large-1 columns">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
-  <line x1="13" y1="8" x2="15" y2="8" />
-  <line x1="13" y1="12" x2="15" y2="12" />
-</svg>
-            </div>
-            <div className="small-11 medium-9 large-5 columns">
-                <h4>Research</h4>
-                <div className="skills_underline_orange"></div>
-                <ul className="no_bullet">
-                <li className="checked">Focus group/itw</li>
-                <li className="checked">Usability studies</li>
-                <li className="checked">Heuristic review</li>
-                <li className="checked">Empathy mapping</li>
-                <li className="checked">Storyboard</li>
-                <li className="checked">Benchmarking</li>
-                <li className="checked">Moodboard</li>
-                 <li className="checked">Quantitative UX research</li>
-                </ul>
-            </div>
-            <div className="small-11 medium-2 large-1 columns">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-artboard" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="8" y="8" width="8" height="8" rx="1" />
-  <line x1="3" y1="8" x2="4" y2="8" />
-  <line x1="3" y1="16" x2="4" y2="16" />
-  <line x1="8" y1="3" x2="8" y2="4" />
-  <line x1="16" y1="3" x2="16" y2="4" />
-  <line x1="20" y1="8" x2="21" y2="8" />
-  <line x1="20" y1="16" x2="21" y2="16" />
-  <line x1="8" y1="20" x2="8" y2="21" />
-  <line x1="16" y1="20" x2="16" y2="21" />
-</svg>
-            </div>
-            <div className="small-11 medium-9 large-5 columns">
-                <h4>Ideation</h4>
-                <div className="skills_underline_orange"></div>
-                <ul className="no_bullet">
-                <li className="checked">Information architecture</li>
-                <li className="checked">Personas, empathy maps...</li>
-                <li className="checked">Storytelling / user journey</li>
-                <li className="checked">Wireframes</li>
-                <li className="checked">Interactive prototyping</li>
-                <li className="checked">Art direction / branding</li>
-                <li className="checked">Holistic & multidisciplinary approach</li>
-                <li className="checked">Tools: Figma, FramerX, Storybook, HTML, CSS & JS, Proto Pie(IxD)</li>
-                </ul>
-            </div>
-            <div className="small-11 medium-2 large-1 columns padding5_top">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-target" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="1" />
-  <circle cx="12" cy="12" r="5" />
-  <circle cx="12" cy="12" r="9" />
-</svg>
-            </div>
-            <div className="small-11 medium-9 large-5 columns padding5_top">
-                <h4>Design for business</h4>
-                <div className="skills_underline_orange"></div>
-                <ul className="no_bullet">
-                <li className="checked">Conversion of kpis into design strategy</li>
-                <li className="checked">Behaviour design</li>
-                <li className="checked">Data analysis</li>
-                <li className="checked">Conversion optimization design</li>
-                <li className="checked">Product strategy</li>
-                <li className="checked">UX Design consultancy</li>
-                <li className="checked">QA & iteration</li>
-                <li className="checked twolines">Cross-cultural skills (I speak spanish, english and french)</li>
-                <li className="checked">Full Service Delivery</li>
-                <li className="checked twolines">Design complexity management and facilitation</li>
+        <div className="row align-left padding5_top padding5_bottom">
+            <div className="small-11 medium-11 columns">
+                    <div className="wrapper">
+                        {/* Accordion Heading One */}
+                        <div className="parent-tab">
+                        <input type="radio" name="tab" id="tab-1" />
+                        <label htmlFor="tab-1">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-area icon-tabler icon-tabler-notebook" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"/>
+                                    <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+                                    <line x1="13" y1="8" x2="15" y2="8" />
+                                    <line x1="13" y1="12" x2="15" y2="12" />
+                                </svg>
+                                Research
+                            </span>
 
-                
-                </ul>
+                            <div className="icon">
+                                <span>Generative & evaluative</span>
+                                <i/></div>
+                        </label>
+                        <div className="content">
+                            <p>Generative research : Focus group/itw, Field study, Personas, User journey, Tasks flows, Competitive audit, Use cases, Value proposition, Moodboard,
+                                Culture-based user interface design</p>
+                            <p>Evaluative research : Usability studies, Heuristic review, Focus group/itw, Metrics analysis, Taxonomies, Quant/Qual UX research.</p>
+                            <p>Tools : <span className="tool">Userzoom</span> <span className="tool">rweb</span> <span className="tool">Analytics</span> <span className="tool">Lookback</span> <span className="tool">Hotjar</span> <span className="tool">Prototypes</span> <span className="tool">Videos, pdf or spreadsheets for findings presentation</span></p>
+                        </div>
+                        </div>
+                        {/* Accordion Heading Two */}
+                        <div className="parent-tab">
+                        <input type="radio" name="tab" id="tab-2" />
+                        <label htmlFor="tab-2">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-area icon-tabler icon-tabler-artboard" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"/>
+                                    <rect x="8" y="8" width="8" height="8" rx="1" />
+                                    <line x1="3" y1="8" x2="4" y2="8" />
+                                    <line x1="3" y1="16" x2="4" y2="16" />
+                                    <line x1="8" y1="3" x2="8" y2="4" />
+                                    <line x1="16" y1="3" x2="16" y2="4" />
+                                    <line x1="20" y1="8" x2="21" y2="8" />
+                                    <line x1="20" y1="16" x2="21" y2="16" />
+                                    <line x1="8" y1="20" x2="8" y2="21" />
+                                    <line x1="16" y1="20" x2="16" y2="21" />
+                                </svg>
+                                Ideation
+                            </span>
+                            <div className="icon">
+                                <span>Prototypes for validation</span>
+                                <i/></div>
+                        </label>
+                        <div className="content">
+                            <p>Information architecture, Personas, Empathy maps, Storytelling / user journey, Wireframes, Interactive prototyping, Art direction / branding, Holistic & multidisciplinary approach</p>
+                            <p><span className="tool">Figma</span> <span className="tool">FramerX</span> <span className="tool">HTML, CSS & JS</span> <span className="tool">Proto Pie(IxD)</span></p>
+                        </div>
+                        </div>
+                        {/* Accordion Heading Three */}
+                        <div className="parent-tab tab-3">
+                        <input type="radio" name="tab" id="tab-3" defaultChecked />
+                        <label htmlFor="tab-3" className="tab-3">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon-area icon-tabler icon-tabler-target" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"/>
+                                    <circle cx="12" cy="12" r="1" />
+                                    <circle cx="12" cy="12" r="5" />
+                                    <circle cx="12" cy="12" r="9" />
+                            </svg>
+                            Design for business
+                        </span>
+                        <div className="icon">
+                            <span>"Bring the data !"</span>
+                            <i/></div>
+                        </label>
+                        <div className="content">
+                           <p>Conversion of kpis into design strategy, Growth Design, Metrics analysis, A/B Test, Conversion optimization design, Product strategy, Competitive audit, UX Design consultancy, QA & iteration.
+                           </p>
+
+                        </div>
+                        </div>
+                        {/* Accordion Heading Four */}
+                        <div className="parent-tab">
+                        <input type="radio" name="tab" id="tab-6" />
+                        <label htmlFor="tab-6">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-area icon-tabler icon-tabler-code" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"/>
+                                    <polyline points="7 8 3 12 7 16" />
+                                    <polyline points="17 8 21 12 17 16" />
+                                    <line x1="14" y1="4" x2="10" y2="20" />
+                                </svg>
+                                Implementation
+                            </span>
+                            <div className="icon">
+                                <span>Design as a tool for empowerement</span>
+                                <i className="fas fa-plus" /></div>
+                        </label>
+                        <div className="content">
+                            <p>Object Oriented UX, Streamlined design handoff to dev, Support to front integration, Components Library creation, GIT, Visual design & illustration.</p>
+                            <p>Frameworks : <span className="tool">React</span> <span className="tool">React native</span> <span className="tool">Storybook</span> <span className="tool">Styled-component </span> <span className="tool">Angular </span> <span className="tool">Ruby on Rails </span> <span className="tool">Bulma </span> <span className="tool">Tailwind </span> <span className="tool">Saas</span></p>
+                        </div>
+                        </div>
+                        <div className="parent-tab">
+                        <input type="radio" name="tab" id="tab-7" />
+                        <label htmlFor="tab-7">
+                            <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon-area icon-tabler icon-tabler-compass" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                            <circle cx="12" cy="12" r="9" />
+                            <line x1="12" y1="3" x2="12" y2="5" />
+                            <line x1="12" y1="19" x2="12" y2="21" />
+                            <line x1="3" y1="12" x2="5" y2="12" />
+                            <line x1="19" y1="12" x2="21" y2="12" />
+                            </svg>
+                                Design governance
+                            </span>
+                            <div className="icon">
+                                <span>Scaling design</span>
+                                <i className="fas fa-plus" /></div>
+                        </label>
+                        <div className="content">
+                            <p>Project management, Governance and process definition, Design system for various UI platforms, Components Library creation, Design validation (Quant/Qual), Product/Feature Roadmap, UX Design consultancy, QA & iteration, Languages (I speak Spanish, English and French), Full Service Delivery, Design complexity management and facilitation.
+
+                            </p>
+                        </div>
+                        </div>
+                    </div>
             </div>
-            <div className="small-11 medium-2 large-1 columns padding5_top">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="52" height="52" viewBox="0 0 24 24" stroke-width="0.5" stroke="#faad2a" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="7 8 3 12 7 16" />
-  <polyline points="17 8 21 12 17 16" />
-  <line x1="14" y1="4" x2="10" y2="20" />
-</svg>
-            </div>
-            <div className="small-11 medium-9 large-5 columns padding5_top">
-                <h4>Implementation</h4>
-                <div className="skills_underline_orange"></div>
-                <ul className="no_bullet">
-                <li className="checked">Scope, timeline and budget responsibility</li>
-                <li className="checked">Process definition</li>
-                <li className="checked">Design system for various UI platforms</li>
-                <li className="checked">Streamlined design handoff to dev</li>
-                <li className="checked twolines">Support to front integration (React, Angular, RoR)</li>
-                <li className="checked">Components Library creation</li>
-                <li className="checked">Design validation (Quant/Qual)</li>
-                <li className="checked">GIT</li>
-                <li className="checked">Visual design & illustration</li>
-                
-                </ul>
-            </div>
-            <div className="small-11 medium-11 columns padding10_top"> 
+
+
+            <div className="small-11 medium-11 columns padding10_top">
                 <h2 className="">Currently learning...</h2>
-                <div className="skills_underline_orange"></div> 
+                <div className="skills_underline_orange"></div>
                 <div className="show-for-medium medium-1 columns padding5_bottom"></div>
                 <div className="row align-left">
                     <div className="small-4 columns padding5_bottom">
@@ -183,18 +216,11 @@ export default () => (
                       Thai cuisine!
                     </div>
                 </div>
-        </div> 
+        </div>
 
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
 
 <div className="row align-center padding5_top">
 	<div className="small-11 medium-11 columns">
@@ -216,7 +242,7 @@ export default () => (
                             <Link to="#" onclick="track('Click-see-alperouge','Click-see-alperouge')">see the stuff I crafted (currently updating website...) <span className="target_blank"></span></Link>
                         </div>
                     </div>
-                   
+
 
             </div>
         </div>
@@ -235,7 +261,7 @@ export default () => (
                             <Link to="https://biscaypla.in" onclick="track('Click-see-biscayplain','Click-see-biscayplain')">Subscribe here if you are not already a member!<span className="target_blank"></span></Link>
                         </div>
                     </div>
-                    
+
 
             </div>
         </div>
@@ -256,22 +282,22 @@ export default () => (
 			</div>
 			<div className="small-11 medium-8 columns">
 				<div className="callout_publications">
-					<small> 23/02/2020</small>
+					<small> 23/02/2021</small>
 					<a href="http://convy.io/read/articles/good_emails" target="_blank" rel="noopener" onclick="track('Click-see-article-solitude','Click-see-article-solitude')"><h3>5 Tips To Make Emails That Convert<span className="target_blank"></span></h3></a>
 					<p>Email design is hard. In this article we will review 5 rules that unsure email good conversion.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 03/01/2020</small>
+					<small> 03/01/2021</small>
 					<a href="http://www.uxpages.com/blog/articles/the_five_paradoxes_of_creativity" target="_blank" rel="noopener" onclick="track('Click-see-article-five','Click-see-article-five')"><h3>The five paradoxes of creativity <span className="target_blank"></span></h3></a>
 					<p>Understanding creativity means discerning the different paradoxes that compose it.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 23/12/2019</small>
+					<small> 23/12/2020</small>
 					<a href="http://convy.io/read/articles/attractive_digital" target="_blank" rel="noopener" onclick="track('Click-see-article-five','Click-see-article-five')"><h3>5 Pro Tips To Make Your Product More Attractive<span className="target_blank"></span></h3></a>
 					<p>Reaction to digital product appearances are fast, unconscious and will affect the way users engage with it. In this article we will share ways to ensure your product provides a great first impression.</p>
 				</div>
 				<div className="callout_publications">
-					<small> 11/12/2019</small>
+					<small> 11/12/2020</small>
 					<a href="http://www.uxpages.com/blog/articles/empathy_and_creativity" target="_blank" rel="noopener" onclick="track('Click-see-article-empathy','Click-see-article-empathy')"><h3>Empathy and creativity<span className="target_blank"></span></h3></a>
 					<p>This phenomenon is the basis of human links and artistic communication.</p>
 				</div>
@@ -295,5 +321,5 @@ export default () => (
 
 </div>
 </PageTransition>
-) 
+)
 

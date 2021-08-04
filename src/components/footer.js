@@ -1,19 +1,40 @@
-import React from 'react'
+import React, {Component} from 'react';
 import { Link } from "gatsby"
 import form from './formData'
 
 
+class Footer extends Component {
+	state = {
+	  copied: true
+	}
+	copyTextToClipboard = () => {
+	  const context = this.textArea;
+	  context.select();
+	  document.execCommand("copy");
+	  // Change state to false
+	  this.setState({ copied: !this.state.copied });
+	  // Change state after 3 seconds
+	  setTimeout(() => {
+		return this.setState({copied: !this.state.copied })},
+		1000)
+	}
+	render(){
+	  // Pulling from the state
+	  const { copied } = this.state;
 
 
-const Footer = ({ siteTitle }) => (
-    <div className="footer_bg">
-    
+	  return(
+
+		<div>
+			<div className="footer_bg">
+
 <div className="row align-center">
 	<div className="small-11 columns padding10_top padding5_bottom">
-	  <h2 className="">Get in touch. </h2>
+	  <h2 className="">Since you are here </h2>
 	                 <div className="skills_underline_orange"></div>
-	                <p className="padding5_top">Let's create great experiences and make your project generate more revenue. I am currently NOT available for projects in Europe.</p>
+	                <p className="">My goal is to help you create great and profitable products. If you drop me a line about your work and the challenges you face I will reply with some suggestions (I always do) or spread the word to my network if needed. </p>
 	                <p>Get in touch with me by filling the form below. You can also directly  <a href="https://calendly.com/uxpages/30min" target="_blank" rel="noopener" className="link_underlined"> schedule a call <span className="target_blank"></span></a></p>
+					<p>Thanks for your interest !</p>
 	</div>
 
 	<div className="small-11 medium-6 columns white border-radius-left-side">
@@ -21,19 +42,43 @@ const Footer = ({ siteTitle }) => (
 			<label for="email"><span className="label-form">Leave your e-mail...</span></label>
 			<input className="_gotcha" type="text" name="_gotcha"/>
 			<input name="_replyto" id="email" type="email" name="Email" required/>
-			 <label className="label-form padding5_top" for="message"><span>Write your message...</span></label>
+			 <label className="label-form padding5_top" for="message"><span>Tell me a bit about your work...</span></label>
 			<textarea id="message" className="" name="message" cols="1" rows="6"></textarea>
-			
+
 			<input id='send-button' className="submitBtn" type="submit" value="Send"/>
 		</form>
 
 
-       
+
 	</div>
 
 <div className="small-11 medium-5 columns orange border-radius-right-side">
-            <Link to="mailto:&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;" className="email_footer">&#104;&#111;&#108;&#097;&#064;&#117;&#120;&#112;&#097;&#103;&#101;&#115;&#046;&#099;&#111;&#109;</Link>
-<p></p>
+	<div className="row align-center">
+		<div className="small-10">
+			<textarea
+			 onClick={this.copyTextToClipboard}
+			 readOnly
+			 ref={(textarea) => this.textArea = textarea}
+			 value="hola@uxpages.com"
+			 className="TextAreaCopy"
+		  	/>
+		</div>
+		<div className="small-1 Copy">
+
+
+
+			<button className="ButtonCopy" onClick={this.copyTextToClipboard}>
+			<svg xmlns="http://www.w3.org/2000/svg" class="CopyIconHover" width="24" height="24" viewBox="0 0 24 24" stroke-width="0.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+					<rect x="8" y="8" width="12" height="12" rx="2" />
+					<path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+				</svg>
+				{copied ? " " : "Copied!"}
+			</button>
+		</div>
+	</div>
+
+
 
 
 <Link to="#" target="_blank" rel="noopener">
@@ -49,10 +94,10 @@ const Footer = ({ siteTitle }) => (
 <div className="bottom-navbar">
 
 	<div className="container">
-	
+
 		<div className="row align-center">
-		
-		<Link className="menu__item" to="#recent_work"><span className="menu__item-name">case studies</span></Link>
+
+		<Link className="menu__item" to="/case_studies/"><span className="menu__item-name">case studies</span></Link>
 		<Link className="menu__item" to="#skills"><span className="menu__item-name">capabilities</span></Link>
 		<Link className="menu__item" to="#side_project"><span className="menu__item-name">side project</span></Link>
 		<Link className="menu__item" to="#contactForm"><span className="menu__item-name">contact</span></Link>
@@ -65,15 +110,21 @@ const Footer = ({ siteTitle }) => (
 <footer>
     <div className="row large-unstack align-center">
       <div className="column">
-        <small>&copy; 2020 uxpages eirl</small>
+        <small>&copy; 2021 uxpages eirl</small>
       </div>
     </div>
 </footer>
 
-      
+
     </div>
-    
-    )
-    
-    
-    export default Footer
+
+		</div>
+	  )
+	}
+  };
+  export default Footer
+
+
+
+
+
